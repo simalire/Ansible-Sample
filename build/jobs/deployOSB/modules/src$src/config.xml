@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<maven2 plugin="maven-plugin@2.15.1">
+  <actions/>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <reporters/>
+  <displayName>src</displayName>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <relativePath>./src/OSB</relativePath>
+  <dependencies/>
+  <children>
+    <hudson.maven.ModuleName>
+      <groupId>src</groupId>
+      <artifactId>resources</artifactId>
+    </hudson.maven.ModuleName>
+    <hudson.maven.ModuleName>
+      <groupId>src</groupId>
+      <artifactId>util.cmn.ivs.Logging_1.0</artifactId>
+    </hudson.maven.ModuleName>
+    <hudson.maven.ModuleName>
+      <groupId>src</groupId>
+      <artifactId>app.trim.ivs.ProcessServiceRequest_1.0</artifactId>
+    </hudson.maven.ModuleName>
+  </children>
+</maven2>

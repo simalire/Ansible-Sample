@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<maven2 plugin="maven-plugin@2.15.1">
+  <actions/>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <reporters/>
+  <displayName>resources</displayName>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>sbar</packaging>
+  <relativePath>src/OSB/resources</relativePath>
+  <dependencies>
+    <dependency>
+      <groupId>com.oracle.servicebus.plugin</groupId>
+      <artifactId>oracle-servicebus-plugin</artifactId>
+      <version>12.2.1-1-0</version>
+      <plugin>true</plugin>
+    </dependency>
+    <dependency>
+      <groupId>src</groupId>
+      <artifactId>src</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <plugin>false</plugin>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>properties-maven-plugin</artifactId>
+      <version>1.0-alpha-2</version>
+      <plugin>true</plugin>
+    </dependency>
+  </dependencies>
+  <children/>
+</maven2>

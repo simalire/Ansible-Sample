@@ -1,0 +1,28 @@
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building app.trim.ivs.ProcessServiceRequest_1.0 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- properties-maven-plugin:1.0-alpha-2:read-project-properties (default) @ app.trim.ivs.ProcessServiceRequest_1.0 ---
+[INFO] 
+[INFO] --- replacer:1.5.3:replace (default) @ app.trim.ivs.ProcessServiceRequest_1.0 ---
+[INFO] Replacement run on 1 file.
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- oracle-servicebus-plugin:12.2.1-1-0:package (default-package) @ app.trim.ivs.ProcessServiceRequest_1.0 ---
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- oracle-servicebus-plugin:12.2.1-1-0:deploy (default-deploy) @ app.trim.ivs.ProcessServiceRequest_1.0 ---
+[INFO] Service Bus Archive deployed using session Service_Bus_Maven-app.trim.ivs.ProcessServiceRequest_1.0-1489060948575.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] src ................................................ SUCCESS [  0.146 s]
+[INFO] resources .......................................... SUCCESS [ 25.318 s]
+[INFO] util.cmn.ivs.Logging_1.0 ........................... SUCCESS [ 15.805 s]
+[INFO] app.trim.ivs.ProcessServiceRequest_1.0 ............. SUCCESS [ 21.282 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 01:09 min
+[INFO] Finished at: 2017-03-09T17:32:35+05:30
+[INFO] Final Memory: 28M/404M
+[INFO] ------------------------------------------------------------------------

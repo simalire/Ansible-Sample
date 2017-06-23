@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@2.15.1">
+  <actions>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>src</groupId>
+        <artifactId>util.cmn.ivs.Logging_1.0</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>util.cmn.ivs.Logging_1.0-1.0-SNAPSHOT.pom</canonicalName>
+        <md5sum>0c5239e36e35f6f82559517d2f18190d</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+    </hudson.maven.reporters.MavenArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record/>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>-1</queueId>
+  <timestamp>1488546147791</timestamp>
+  <startTime>1488546159072</startTime>
+  <result>NOT_BUILT</result>
+  <duration>4</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\Monali\jenkins\workspace\src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0</workspace>
+</hudson.maven.MavenBuild>

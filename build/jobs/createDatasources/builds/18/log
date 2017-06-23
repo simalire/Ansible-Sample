@@ -1,0 +1,72 @@
+Started by user [8mha:////4LtfQNX7kl27S4V0s97PccaOSpbARv1X+7NO/SfLyE0tAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace D:\Monali\jenkins\workspace
+Cleaning local Directory .
+Checking out https://scm-coconet.capgemini.com/svn/repos/oracleidp/CI_2017/build/scripts at revision '2017-03-02T18:25:11.874 +0530'
+A         build.properties
+A         setenv.sh
+A         wlstTaskDefs.xml
+A         build.xml
+A         temp
+At revision 283
+
+[workspace] $ cmd.exe /C "C:\Oracle\Middleware12c211\oracle_common\modules\org.apache.ant_1.9.2\bin\ant.bat createJDBCDatasources && exit %%ERRORLEVEL%%"
+Buildfile: D:\Monali\jenkins\workspace\build.xml
+
+[8mha:////4PtBWaCfsPu/tiDiQJ+Iua0bo5AMX/8fDgR8zRnaeFECAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcreateJDBCDatasources:
+     [echo] create-JDBC-Datasources
+
+[8mha:////4PtBWaCfsPu/tiDiQJ+Iua0bo5AMX/8fDgR8zRnaeFECAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minternal_createJDBCDatasources:
+     [wlst] datasource DSNonXA1
+     [wlst] Datasource Target AdminServer
+     [wlst] dsJNDIName jdbc/DSNonXA1
+     [wlst] dsDriverName oracle.jdbc.OracleDriver
+     [wlst] dsUserName soa_user
+     [wlst] globalTransactionsProtocol None
+     [wlst] Connecting to t3://localhost:7001 with userid weblogic ...
+     [wlst] Successfully connected to Admin Server "AdminServer" that belongs to domain "standalone_domain".
+     [wlst] 
+     [wlst] Warning: An insecure protocol was used to connect to the server. 
+     [wlst] To ensure on-the-wire security, the SSL port or Admin port should be used instead.
+     [wlst] 
+     [wlst] Location changed to edit tree. 	 
+     [wlst] This is a writable tree with DomainMBean as the root. 	 
+     [wlst] To make changes you will need to start an edit session via startEdit(). 
+     [wlst] For more help, use help('edit').
+     [wlst] 
+     [wlst] Starting an edit session ...
+     [wlst] Started edit session, be sure to save and activate your changes once you are done.
+     [wlst] Saving all your changes ...
+     [wlst] Saved all your changes successfully.
+     [wlst] Activating all your changes, this may take a while ... 
+     [wlst] The edit lock associated with this edit session is released once the activation is completed.
+     [wlst] Activation completed
+
+[8mha:////4PtBWaCfsPu/tiDiQJ+Iua0bo5AMX/8fDgR8zRnaeFECAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minternal_createJDBCDatasources:
+     [wlst] datasource DSXA1
+     [wlst] Datasource Target AdminServer
+     [wlst] dsJNDIName jdbc/DSXA1
+     [wlst] dsDriverName oracle.jdbc.xa.client.OracleXADataSource
+     [wlst] dsUserName soa_user
+     [wlst] globalTransactionsProtocol OnePhaseCommit
+     [wlst] Connecting to t3://localhost:7001 with userid weblogic ...
+     [wlst] Successfully connected to Admin Server "AdminServer" that belongs to domain "standalone_domain".
+     [wlst] 
+     [wlst] Warning: An insecure protocol was used to connect to the server. 
+     [wlst] To ensure on-the-wire security, the SSL port or Admin port should be used instead.
+     [wlst] 
+     [wlst] Location changed to edit tree. 	 
+     [wlst] This is a writable tree with DomainMBean as the root. 	 
+     [wlst] To make changes you will need to start an edit session via startEdit(). 
+     [wlst] For more help, use help('edit').
+     [wlst] 
+     [wlst] Starting an edit session ...
+     [wlst] Started edit session, be sure to save and activate your changes once you are done.
+     [wlst] Saving all your changes ...
+     [wlst] Saved all your changes successfully.
+     [wlst] Activating all your changes, this may take a while ... 
+     [wlst] The edit lock associated with this edit session is released once the activation is completed.
+     [wlst] Activation completed
+
+[8mha:////4D0IQNEa/KM24g16AauiUYcEHDq9p0gn3Nh8vm5KWZi7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 28 seconds
+Finished: SUCCESS

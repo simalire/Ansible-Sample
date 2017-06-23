@@ -1,0 +1,93 @@
+Started by user [8mha:////4LtfQNX7kl27S4V0s97PccaOSpbARv1X+7NO/SfLyE0tAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace D:\Monali\jenkins\workspace
+Cleaning local Directory .
+Checking out https://coconet-svn-in-01.capgemini.com/svn/repos/powercorintegration/projects/ci/weblogicResources at revision '2017-03-02T12:39:13.942 +0530'
+A         readme.txt
+A         build.xml
+A         createJMSResources.py
+A         details.properties
+A         createMultipleDataSource.py
+A         WLSTbuild.properties
+A         createDBJNDI.py
+At revision 1087
+
+No changes for https://coconet-svn-in-01.capgemini.com/svn/repos/powercorintegration/projects/ci/weblogicResources since the previous build
+[workspace] $ cmd.exe /C "C:\Oracle\Middleware12c211\oracle_common\modules\org.apache.ant_1.9.2\bin\ant.bat createDBJNDIs && exit %%ERRORLEVEL%%"
+Buildfile: D:\Monali\jenkins\workspace\build.xml
+
+[8mha:////4PtBWaCfsPu/tiDiQJ+Iua0bo5AMX/8fDgR8zRnaeFECAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcreateDBJNDIs:
+     [wlst] ===================================================
+     [wlst] Running Ant Target to create Database JNDIs.
+     [wlst] ===================================================
+     [wlst] Connecting to t3://localhost:7001 with userid weblogic ...
+     [wlst] Successfully connected to Admin Server "AdminServer" that belongs to domain "standalone_domain".
+     [wlst] 
+     [wlst] Warning: An insecure protocol was used to connect to the server. 
+     [wlst] To ensure on-the-wire security, the SSL port or Admin port should be used instead.
+     [wlst] 
+     [wlst] Location changed to edit tree. 	 
+     [wlst] This is a writable tree with DomainMBean as the root. 	 
+     [wlst] To make changes you will need to start an edit session via startEdit(). 
+     [wlst] For more help, use help('edit').
+     [wlst] You already have an edit session in progress and hence WLST will 
+     [wlst] continue with your edit session.
+     [wlst] 
+     [wlst] Starting an edit session ...
+     [wlst] Started edit session, be sure to save and activate your changes once you are done.
+     [wlst] =========================================
+     [wlst] Starting DBAdapter Update..
+     [wlst] =========================================
+     [wlst] about to update the deployment plan for the DbAdapter
+     [wlst] Using plan C:/Oracle/Middleware12c211/soa/soa/DBAdapterPlan.xml
+     [wlst] Loading application from C:/Oracle/Middleware12c211/soa/soa/connectors/DbAdapter.rar ...
+     [wlst] <Mar 2, 2017 12:39:39 PM IST> <Info> <J2EE> <BEA-160166> <References were found in the deployment plan for module "DbAdapter.rar" with URI, "META-INF/weblogic-ra.xml". The plan was merged.> 
+     [wlst] <Mar 2, 2017 12:39:39 PM IST> <Info> <Munger> <BEA-2156202> <References were found in the deployment plan for module "DbAdapter.rar" with URI, "META-INF/weblogic-ra.xml". The plan was merged.> 
+     [wlst] <Mar 2, 2017 12:39:39 PM IST> <Info> <J2EE Deployment SPI> <BEA-260071> <Restored configuration for application, DbAdapter> 
+     [wlst] Loaded application from C:\Oracle\Middleware12c211\soa\soa\connectors\DbAdapter.rar and the deployment plan from C:\Oracle\Middleware12c211\soa\soa\DBAdapterPlan.xml
+     [wlst] The WLSTPlan object is assigned to variable wlstPlan_DbAdapter.
+     [wlst] adding variables to plan
+     [wlst] Creating VariableAssignment for ModuleOverride DbAdapter.rar and ModuleDescriptor with URI META-INF/weblogic-ra.xml.
+     [wlst] Created VariableAssignment with name ConnectionInstance_eis/DB/eis/db/myDS1_JNDIName_ successfully.
+     [wlst] Creating VariableAssignment for ModuleOverride DbAdapter.rar and ModuleDescriptor with URI META-INF/weblogic-ra.xml.
+     [wlst] Created VariableAssignment with name ConfigProperty_xADataSourceName_Value_ successfully.
+     [wlst] saving plan
+     [wlst] <Mar 2, 2017 12:39:39 PM IST> <Info> <J2EE Deployment SPI> <BEA-260072> <Saved configuration for application, DbAdapter.rar> 
+     [wlst] Saving all your changes ...
+     [wlst] Saved all your changes successfully.
+     [wlst] Exiting loop
+     [wlst] about to update the deployment plan for the DbAdapter
+     [wlst] Using plan C:/Oracle/Middleware12c211/soa/soa/DBAdapterPlan.xml
+     [wlst] Loading application from C:/Oracle/Middleware12c211/soa/soa/connectors/DbAdapter.rar ...
+     [wlst] <Mar 2, 2017 12:39:44 PM IST> <Info> <J2EE> <BEA-160166> <References were found in the deployment plan for module "DbAdapter.rar" with URI, "META-INF/weblogic-ra.xml". The plan was merged.> 
+     [wlst] <Mar 2, 2017 12:39:44 PM IST> <Info> <Munger> <BEA-2156202> <References were found in the deployment plan for module "DbAdapter.rar" with URI, "META-INF/weblogic-ra.xml". The plan was merged.> 
+     [wlst] <Mar 2, 2017 12:39:44 PM IST> <Info> <J2EE Deployment SPI> <BEA-260071> <Restored configuration for application, DbAdapter> 
+     [wlst] Loaded application from C:\Oracle\Middleware12c211\soa\soa\connectors\DbAdapter.rar and the deployment plan from C:\Oracle\Middleware12c211\soa\soa\DBAdapterPlan.xml
+     [wlst] The WLSTPlan object is assigned to variable wlstPlan_DbAdapter.
+     [wlst] adding variables to plan
+     [wlst] Creating VariableAssignment for ModuleOverride DbAdapter.rar and ModuleDescriptor with URI META-INF/weblogic-ra.xml.
+     [wlst] Created VariableAssignment with name ConnectionInstance_eis/DB/eis/db/myDS2_JNDIName_ successfully.
+     [wlst] Creating VariableAssignment for ModuleOverride DbAdapter.rar and ModuleDescriptor with URI META-INF/weblogic-ra.xml.
+     [wlst] Created VariableAssignment with name ConfigProperty_xADataSourceName_Value_ successfully.
+     [wlst] saving plan
+     [wlst] <Mar 2, 2017 12:39:44 PM IST> <Info> <J2EE Deployment SPI> <BEA-260072> <Saved configuration for application, DbAdapter.rar> 
+     [wlst] Saving all your changes ...
+     [wlst] Saved all your changes successfully.
+     [wlst] Exiting loop
+     [wlst] activating changes
+     [wlst] Activating all your changes, this may take a while ... 
+     [wlst] The edit lock associated with this edit session is released once the activation is completed.
+     [wlst] Activation completed
+     [wlst] redeploying the DbAdapter
+     [wlst] Redeploying application DbAdapter ...
+     [wlst] <Mar 2, 2017 12:41:11 PM IST> <Info> <J2EE Deployment SPI> <BEA-260121> <Initiating redeploy operation for application, DbAdapter [archive: null], to AdminServer .> 
+     [wlst] .Completed the redeployment of Application with status completed
+     [wlst] Current Status of your Deployment:
+     [wlst] Deployment command type: redeploy
+     [wlst] Deployment State : completed
+     [wlst] Deployment Message : no message
+     [wlst] done
+     [wlst] <Mar 2, 2017 12:41:15 PM IST> <Warning> <JNDI> <BEA-050001> <WLContext.close() was called in a different thread than the one in which it was created.> 
+
+[8mha:////4D0IQNEa/KM24g16AauiUYcEHDq9p0gn3Nh8vm5KWZi7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 1 minute 56 seconds
+Finished: SUCCESS

@@ -1,0 +1,357 @@
+Started by user [8mha:////4LtfQNX7kl27S4V0s97PccaOSpbARv1X+7NO/SfLyE0tAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace D:\Monali\jenkins\workspace
+Cleaning local Directory .
+Checking out https://scm-coconet.capgemini.com/svn/repos/oracleidp/CI_2017 at revision '2017-03-03T18:32:12.776 +0530'
+A         src
+A         src\OSB
+A         src\OSB\pom.xml
+A         src\OSB\resources
+A         src\OSB\resources\cap
+A         src\OSB\resources\cap\hcm
+A         src\OSB\resources\cap\hcm\proll
+A         src\OSB\resources\cap\hcm\proll\ivs
+A         src\OSB\resources\cap\hcm\proll\ivs\ProcessTimeAttendance_1.0.wsdl
+A         src\OSB\resources\cap\hcm\proll\ivs\ProcessTimeAttendance_1.0.xsd
+A         src\OSB\resources\cap\hcm\proll\dvm
+A         src\OSB\resources\cap\hcm\proll\dvm\hcm.proll.MesgDescMapping.dvm
+A         src\OSB\resources\cap\hcm\hr
+A         src\OSB\resources\cap\hcm\hr\dvm
+A         src\OSB\resources\cap\hcm\hr\dvm\hcm.hr.MesgDescMapping.dvm
+A         src\OSB\resources\cap\fin
+A         src\OSB\resources\cap\fin\ap
+A         src\OSB\resources\cap\fin\ap\dvm
+A         src\OSB\resources\cap\fin\ap\dvm\fin.ap.MesgDescMapping.dvm
+A         src\OSB\resources\cap\fin\ap\ivs
+A         src\OSB\resources\cap\fin\ap\ivs\ProcessSupplierInvoice_1.0.wsdl
+A         src\OSB\resources\cap\fin\ap\ivs\ProcessSupplierInvoice_1.0.xsd
+A         src\OSB\resources\cap\fin\gl
+A         src\OSB\resources\cap\fin\gl\ivs
+A         src\OSB\resources\cap\fin\gl\ivs\ProcessGeneralLedger_1.0.wsdl
+A         src\OSB\resources\cap\fin\gl\ivs\ProcessGeneralLedger_1.0.xsd
+A         src\OSB\resources\cap\fin\gl\dvm
+A         src\OSB\resources\cap\fin\gl\dvm\fin.gl.MesgDescMapping.dvm
+A         src\OSB\resources\cap\util
+A         src\OSB\resources\cap\util\cmn
+A         src\OSB\resources\cap\util\cmn\jar
+AU        src\OSB\resources\cap\util\cmn\jar\Base64Encoder.jar
+AU        src\OSB\resources\cap\util\cmn\jar\Base64EncodeDecode.jar
+A         src\OSB\resources\cap\util\cmn\xquery
+A         src\OSB\resources\cap\util\cmn\xquery\Transform_To_StandardFault.xqy
+A         src\OSB\resources\cap\util\cmn\xquery\Transform_To_ERROR_LoggingRequest_1.0.xqy
+A         src\OSB\resources\cap\util\cmn\xquery\Transform_To_INFO_LoggingRequest_1.0.xqy
+A         src\OSB\resources\cap\util\cmn\ivs
+A         src\OSB\resources\cap\util\cmn\ivs\CommonLogging_1.0.wsdl
+A         src\OSB\resources\cap\util\cmn\ivs\dvm
+A         src\OSB\resources\cap\util\cmn\ivs\dvm\EnvironmentLevelAuditController.dvm
+A         src\OSB\resources\cap\util\cmn\ivs\EmailNotification_1.0.xsd
+A         src\OSB\resources\cap\util\cmn\ivs\CommonLogging_1.0.xsd
+A         src\OSB\resources\cap\util\cmn\Header_1.0.xsd
+A         src\OSB\resources\cap\util\cmn\Fault_1.0.xsd
+A         src\OSB\resources\cap\util\cmn\dvm
+A         src\OSB\resources\cap\util\cmn\dvm\util.cmn.MesgDescMapping.dvm
+A         src\OSB\resources\cap\util\cmn\dvm\ServiceLevelAuditController.dvm
+A         src\OSB\resources\cap\util\cmn\dvm\EnvironmentLevelAuditController.dvm
+A         src\OSB\resources\cap\util\cmn\dvm\ResubmissionServiceLookup.dvm
+A         src\OSB\resources\cap\cm
+A         src\OSB\resources\cap\cm\cust
+A         src\OSB\resources\cap\cm\cust\bp
+A         src\OSB\resources\cap\cm\cust\bp\ProcessCustomerDetails_1.0.wsdl
+A         src\OSB\resources\cap\cm\cust\bp\ProcessCustomerDetails_1.0.xsd
+A         src\OSB\resources\cap\cm\cust\ivs
+A         src\OSB\resources\cap\cm\cust\ivs\ProcessCustomerDetails_1.0.wsdl
+A         src\OSB\resources\cap\cm\cust\ivs\ProcessCustomerDetails_1.0.xsd
+A         src\OSB\resources\cap\cm\cust\task
+A         src\OSB\resources\cap\cm\cust\task\ProcessCustomerDetails_1.0.wsdl
+A         src\OSB\resources\cap\cm\cust\task\ProcessCustomerDetails_1.0.xsd
+A         src\OSB\resources\cap\cm\cust\dvm
+A         src\OSB\resources\cap\cm\cust\dvm\cm.cust.MesgDescMapping.dvm
+A         src\OSB\resources\cap\cm\sr
+A         src\OSB\resources\cap\cm\sr\ivs
+A         src\OSB\resources\cap\cm\sr\ivs\ProcessServiceRequest_1.0.wsdl
+A         src\OSB\resources\cap\cm\sr\ivs\ProcessServiceRequest_1.0.xsd
+A         src\OSB\resources\cap\cm\sr\dvm
+A         src\OSB\resources\cap\cm\sr\dvm\cm.sr.MesgDescMapping.dvm
+A         src\OSB\resources\cap\cm\sr\dvm\cm.sr.ivs.ProcessServiceRequest.dvm
+A         src\OSB\resources\cap\app
+A         src\OSB\resources\cap\app\cnar
+A         src\OSB\resources\cap\app\cnar\ivs
+A         src\OSB\resources\cap\app\cnar\ivs\ProcessCustomerDetails_1.0.wsdl
+A         src\OSB\resources\cap\app\cnar\ivs\ProcessCustomerDetails_1.0.xsd
+A         src\OSB\resources\cap\app\cnar\dvm
+A         src\OSB\resources\cap\app\cnar\dvm\app.cnar.MesgDescMapping.dvm
+A         src\OSB\resources\cap\app\cnar\dvm\app.cnar.ivs.ProcessCustomerDetails.dvm
+A         src\OSB\resources\cap\app\supp
+A         src\OSB\resources\cap\app\supp\dvm
+A         src\OSB\resources\cap\app\supp\dvm\app.supp.MesgDescMapping.dvm
+A         src\OSB\resources\cap\app\kronos
+A         src\OSB\resources\cap\app\kronos\dvm
+A         src\OSB\resources\cap\app\kronos\dvm\app.kronos.ivs.ProcessTimeAttendance.dvm
+A         src\OSB\resources\cap\app\kronos\dvm\app.kronos.MesgDescMapping.dvm
+A         src\OSB\resources\cap\app\kronos\dvm\v2.0
+A         src\OSB\resources\cap\app\kronos\dvm\v2.0\app.kronos.ivs.ProcessTimeAttendance.dvm
+A         src\OSB\resources\cap\app\kronos\dvm\v2.0\app.kronos.MesgDescMapping.dvm
+A         src\OSB\resources\cap\app\trim
+A         src\OSB\resources\cap\app\trim\bp
+A         src\OSB\resources\cap\app\trim\bp\ProcessCustomerResponse_1.0.xsd
+A         src\OSB\resources\cap\app\trim\bp\ProcessCustomerResponse_1.0.wsdl
+A         src\OSB\resources\cap\app\trim\ivs
+A         src\OSB\resources\cap\app\trim\ivs\ProcessSRCreationResponse_1.0.wsdl
+A         src\OSB\resources\cap\app\trim\ivs\ServiceRequestAttachment.xsd
+A         src\OSB\resources\cap\app\trim\ivs\ProcessCustomerDetails_1.0.xsd
+A         src\OSB\resources\cap\app\trim\ivs\ProcessSRCreationResponse_1.0.xsd
+A         src\OSB\resources\cap\app\trim\ivs\ServiceRequestAttachment.wsdl
+A         src\OSB\resources\cap\app\trim\ivs\ProcessCustomerDetails_1.0.wsdl
+A         src\OSB\resources\cap\app\trim\dvm
+A         src\OSB\resources\cap\app\trim\dvm\app.trim.MesgDescMapping.dvm
+A         src\OSB\resources\cap\app\cm
+A         src\OSB\resources\cap\app\cm\dvm
+A         src\OSB\resources\cap\app\cm\dvm\cm.cust.MesgDescMapping.dvm
+A         src\OSB\resources\cap\app\pway
+A         src\OSB\resources\cap\app\pway\ivs
+A         src\OSB\resources\cap\app\pway\ivs\ProcessCustomerDetails_1.0.xsd
+A         src\OSB\resources\cap\app\pway\dvm
+A         src\OSB\resources\cap\app\pway\dvm\app.pway.MesgDescMapping.dvm
+A         src\OSB\resources\eo
+A         src\OSB\resources\eo\v1.0
+A         src\OSB\resources\eo\v1.0\common
+A         src\OSB\resources\eo\v1.0\common\Common.xsd
+A         src\OSB\resources\eo\v1.0\common\CommonEO.xsd
+A         src\OSB\resources\eo\v1.0\serviceRequest
+A         src\OSB\resources\eo\v1.0\serviceRequest\ServiceRequest_1.0.xsd
+A         src\OSB\resources\eo\v1.0\serviceRequest\ServiceRequestDetails_1.0.xsd
+A         src\OSB\resources\eo\v1.0\invoice
+A         src\OSB\resources\eo\v1.0\invoice\InvoiceDetails_1.0.xsd
+A         src\OSB\resources\eo\v1.0\file
+A         src\OSB\resources\eo\v1.0\file\FileDetails_1.0.xsd
+A         src\OSB\resources\eo\v1.0\customer
+A         src\OSB\resources\eo\v1.0\customer\FlagDetails_1.0.xsd
+A         src\OSB\resources\eo\v1.0\customer\ProcessCustomerDetails_1.0.xsd
+A         src\OSB\resources\eo\v1.0\customer\CustomerDetails_1.0.xsd
+A         src\OSB\resources\eo\v1.0\customer\ApplicationDetails_1.0.xsd
+A         src\OSB\resources\eo\v1.0\payroll
+A         src\OSB\resources\eo\v1.0\payroll\PayrollDetails.xsd
+A         src\OSB\resources\resources.jpr
+A         src\OSB\resources\servicebus.sboverview
+A         src\OSB\resources\pom.xml
+A         src\OSB\util
+A         src\OSB\util\cmn
+A         src\OSB\util\cmn\ivs
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\servicebus.sboverview
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\ProxyServices
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\ProxyServices\Logging.proxy
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\ProxyServices\Logging.pipeline
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\util.cmn.ivs.Logging_1.0.jpr
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\wsdl
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_AUDIT_ERROR-concrete.wsdl
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_AUDIT_ERROR.wsdl
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_LOGGING_db.jca
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_AUDIT_ERROR-or-mappings.xml
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_AUDIT_ERROR-properties.xml
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_LOGGING_table.xsd
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_LOGGING-concrete.wsdl
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_LOGGING.wsdl
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_LOGGING-or-mappings.xml
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_LOGGING-properties.xml
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_AUDIT_ERROR_db.jca
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_AUDIT_ERROR_table.xsd
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\xquery
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\xquery\Transform_LoggingRequestToInsertCMN_LOGGINGReq.xqy
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\xquery\Transform_LoggignRequestToCreateCMN_AUDIT_ERRORReq.xqy
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\xsd
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\pom.xml
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\.settings
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\.settings\oracle.xquery.mapper.jdev.model
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\.settings\oracle.xquery.mapper.jdev.model\Resources
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\.settings\oracle.xquery.mapper.jdev.model\Resources\xquery
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\.settings\oracle.xquery.mapper.jdev.model\Resources\xquery\untitled1.xqy.xml
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\.settings\oracle.xquery.mapper.jdev.model\Resources\xquery\Transform_LoggingRequestToInsertCMN_LOGGINGReq.xqy.xml
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\.settings\oracle.xquery.mapper.jdev.model\Resources\xquery\Transform_LoggignRequestToCreateErrorMessage.xqy.xml
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\BusinessServices
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\BusinessServices\CMN_AUDIT_ERROR.bix
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\BusinessServices\PublishLoggingMessage.bix
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\BusinessServices\CMN_LOGGING.bix
+A         src\OSB\cm
+A         src\OSB\cm\sr
+A         src\OSB\cm\sr\ivs
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\servicebus.sboverview
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\ProxyServices
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\ProxyServices\ProcessServiceRequest.proxy
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\ProxyServices\ProcessServiceRequestPipeline.pipeline
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\.data
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\.data\scainf
+AU        src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\.data\scainf\cm.sr.ivs.ProcessServiceRequest_1.0.diagram.jpg
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\.data\scainf\cm.sr.ivs.ProcessServiceRequest_1.0.diagram.xml
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\.data\servicebus.sboverview
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\Resources
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\Resources\CNAR_AppKeyLookup_dbReference_sp.xsd
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\Resources\EBS_COLN_I_TR_CRM_OUT_dbReference.xsd
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\Resources\CNAR_AppKeyLookup_dbReference_db.jca
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\Resources\xquery
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\Resources\xquery\Transform_IVSProcessSRToEbsSRCreation.xqy
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\Resources\xquery\Transform_IVSProcessSRToCRMKeyLookup.xqy
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\Resources\EBS_COLN_I_TR_CRM_OUT_dbReference_db.jca
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\Resources\EBS_SRCreation_dbReference-concrete.wsdl
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\Resources\EBS_SRCreation_dbReference.wsdl
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\Resources\CNAR_AppKeyLookup_dbReference-concrete.wsdl
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\Resources\CNAR_AppKeyLookup_dbReference.wsdl
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\Resources\EBS_COLN_I_TR_CRM_OUT_dbReference-concrete.wsdl
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\Resources\EBS_COLN_I_TR_CRM_OUT_dbReference.wsdl
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\Resources\EBS_SRCreation_dbReference_sp.xsd
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\Resources\EBS_SRCreation_dbReference_db.jca
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\pom.xml
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\.settings
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\.settings\oracle.xquery.mapper.jdev.model
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\.settings\oracle.xquery.mapper.jdev.model\Resources
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\.settings\oracle.xquery.mapper.jdev.model\Resources\Transform_IVSProcessSRToEbsSRCreation.xqy.xml
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\.settings\oracle.xquery.mapper.jdev.model\Resources\xquery
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\.settings\oracle.xquery.mapper.jdev.model\Resources\xquery\Transform_IVSProcessSRToEbsSRCreation.xqy.xml
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\.settings\resources
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\.settings\resources\cap
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\.settings\resources\cap\util
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\.settings\resources\cap\util\cmn
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\.settings\resources\cap\util\cmn\xquery
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\.settings\resources\cap\util\cmn\xquery\Transform_To_StandardFault.xqy.xml
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\BusinessServices
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\BusinessServices\EBS_SRCreation_dbReference.bix
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\BusinessServices\CNAR_AppKeyLookup_dbReference.bix
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\BusinessServices\EBS_COLN_I_TR_CRM_OUT_dbReference.bix
+A         src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\cm.sr.ivs.ProcessServiceRequest_1.0.jpr
+A         src\OSB\app
+A         src\OSB\app\trim
+A         src\OSB\app\trim\ivs
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateTRIMToCRM_dbReference_db.jca
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateCRMToTRIM_dbReference_db.jca
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateTRIMToCRM_dbReference_table.xsd
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateCRMToTRIM_dbReference_table.xsd
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_HRDOC2TRIM_db.jca
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateCRMToTRIM_dbReference-concrete.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateCRMToTRIM_dbReference.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateTRIMToCRM_dbReference-concrete.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateTRIMToCRM_dbReference.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_HRDOC2TRIM_table.xsd
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_HRDOC2TRIM.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_HRDOC2TRIM-concrete.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_CRMREP2TRIM_db.jca
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_SRDOCTRIM_db.jca
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_CRMREP2TRIM_table.xsd
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_SRDOCTRIM_table.xsd
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_CRMREP2TRIM-concrete.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_CRMREP2TRIM.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_SRDOCTRIM-concrete.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_SRDOCTRIM.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_CRMREP2TRIM-or-mappings.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_CRMREP2TRIM-properties.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_SRDOCTRIM-or-mappings.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_SRDOCTRIM-properties.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\xquery
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\xquery\Transform_IVSRequestToCRMREP2TRIMReq.xqy
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\xquery\Transform_IVSRequestToInsertHRDOC2TRIM.xqy
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\xquery\Transform_IVSRequestToUpdateCRMToTRIM.xqy
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\xquery\Transform_ReceiveSRAttachmentDetailsToSRDoc2TRIM.xqy
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateCRMToTRIM_dbReference-or-mappings.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateCRMToTRIM_dbReference-properties.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateTRIMToCRM_dbReference-or-mappings.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateTRIMToCRM_dbReference-properties.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_HRDOC2TRIM-or-mappings.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_HRDOC2TRIM-properties.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\pom.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\BusinessServices
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\BusinessServices\DB_CRMREP2TRIM.bix
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\BusinessServices\DB_SRDOCTRIM.bix
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\BusinessServices\DB_UpdateCRMToTRIM_dbReference.bix
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\BusinessServices\DB_UpdateTRIMToCRM_dbReference.bix
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\BusinessServices\DB_HRDOC2TRIM.bix
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\servicebus.sboverview
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\ProxyServices
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\ProxyServices\ProcessServiceRequestPipeline.pipeline
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\ProxyServices\ProcessServiceRequest.proxy
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\app.trim.ivs.ProcessServiceRequest_1.0.jpr
+A         build
+A         build\jobs
+A         build\jars
+AU        build\jars\ant-contrib-1.0b3.jar
+AU        build\jars\xmltask.jar
+A         build\scripts
+A         build\scripts\build.properties
+A         build\scripts\setenv.sh
+A         build\scripts\wlstTaskDefs.xml
+A         build\scripts\build.xml
+A         build\scripts\temp
+A         build\customizations
+A         build\customizations\util.cmn.ivs.Logging_1.0_OSBCustomizationFile.xml
+A         build\customizations\app.trim.ivs.ProcessServiceRequest_1.0_OSBCustomizationFile.xml
+A         build\customizations\cm.sr.ivs.ProcessServiceRequest_1.0_OSBCustomizationFile.xml
+A         build\properties
+A         build\properties\envspecific
+A         build\properties\envspecific\devEnv.properties
+A         build\properties\envspecific\sitEnv.properties
+A         build\properties\envspecific\devReplaceToken.properties
+A         build\properties\envspecific\sitReplaceToken.properties
+A         build\properties\env.properties
+A         build\properties\replaceToken.properties
+At revision 294
+
+No revision recorded for https://scm-coconet.capgemini.com/svn/repos/oracleidp/CI_2017 in the previous build
+Parsing POMs
+Established TCP socket on 60881
+[OSB] $ "C:\Program Files\Java\jdk1.8.0_92/bin/java" -cp "C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-agent-1.8.1.jar;C:\Oracle\Middleware12c211\oracle_common\modules\org.apache.maven_3.2.5\boot\plexus-classworlds-2.5.2.jar;C:\Oracle\Middleware12c211\oracle_common\modules\org.apache.maven_3.2.5/conf/logging" jenkins.maven3.agent.Maven32Main C:\Oracle\Middleware12c211\oracle_common\modules\org.apache.maven_3.2.5 "C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.5.jar" "C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.8.1.jar" "C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.8.1.jar" 60881
+<===[JENKINS REMOTING CAPACITY]===>   channel started
+Executing Maven:  -B -f D:\Monali\jenkins\workspace\src\OSB\pom.xml integration-test
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] src
+[INFO] resources
+[INFO] util.cmn.ivs.Logging_1.0
+[INFO] app.trim.ivs.ProcessServiceRequest_1.0
+[INFO] cm.sr.ivs.ProcessServiceRequest_1.0
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building src 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building resources 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- properties-maven-plugin:1.0-alpha-2:read-project-properties (default) @ resources ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] src ................................................ SUCCESS [  0.167 s]
+[INFO] resources .......................................... FAILURE [  0.294 s]
+[INFO] util.cmn.ivs.Logging_1.0 ........................... SKIPPED
+[INFO] app.trim.ivs.ProcessServiceRequest_1.0 ............. SKIPPED
+[INFO] cm.sr.ivs.ProcessServiceRequest_1.0 ................ SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 7.574 s
+[INFO] Finished at: 2017-03-03T18:32:38+05:30
+[INFO] Final Memory: 18M/330M
+[INFO] ------------------------------------------------------------------------
+[JENKINS] Archiving D:\Monali\jenkins\workspace\src\OSB\resources\pom.xml to src/resources/1.0-SNAPSHOT/resources-1.0-SNAPSHOT.pom
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Failed to execute goal org.codehaus.mojo:properties-maven-plugin:1.0-alpha-2:read-project-properties (default) on project resources: Properties file not found: D:\Monali\jenkins\workspace\src\build\properties\env.properties -> [Help 1]
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] After correcting the problems, you can resume the build with the command
+[JENKINS] Archiving D:\Monali\jenkins\workspace\src\OSB\pom.xml to src/src/1.0-SNAPSHOT/src-1.0-SNAPSHOT.pom
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   mvn <goals> -rf :resources
+[JENKINS] Archiving D:\Monali\jenkins\workspace\src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\pom.xml to src/app.trim.ivs.ProcessServiceRequest_1.0/1.0-SNAPSHOT/app.trim.ivs.ProcessServiceRequest_1.0-1.0-SNAPSHOT.pom
+[JENKINS] Archiving D:\Monali\jenkins\workspace\src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\pom.xml to src/util.cmn.ivs.Logging_1.0/1.0-SNAPSHOT/util.cmn.ivs.Logging_1.0-1.0-SNAPSHOT.pom
+[JENKINS] Archiving D:\Monali\jenkins\workspace\src\OSB\cm\sr\ivs\cm.sr.ivs.ProcessServiceRequest_1.0\pom.xml to src/cm.sr.ivs.ProcessServiceRequest_1.0/1.0-SNAPSHOT/cm.sr.ivs.ProcessServiceRequest_1.0-1.0-SNAPSHOT.pom
+channel stopped
+Finished: FAILURE

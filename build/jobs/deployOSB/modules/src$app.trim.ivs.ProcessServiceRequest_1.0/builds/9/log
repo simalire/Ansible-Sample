@@ -1,0 +1,28 @@
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] src ................................................ SUCCESS [  0.143 s]
+[INFO] resources .......................................... SUCCESS [ 24.105 s]
+[INFO] util.cmn.ivs.Logging_1.0 ........................... FAILURE [ 23.449 s]
+[INFO] app.trim.ivs.ProcessServiceRequest_1.0 ............. SKIPPED
+[INFO] cm.sr.ivs.ProcessServiceRequest_1.0 ................ SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 54.178 s
+[INFO] Finished at: 2017-03-03T19:01:37+05:30
+[INFO] Final Memory: 29M/402M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Failed to execute goal com.oracle.servicebus.plugin:oracle-servicebus-plugin:12.2.1-1-0:deploy (default-deploy) on project util.cmn.ivs.Logging_1.0: The session cannot be activated due to existence of conflicts. -> [Help 1]
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] After correcting the problems, you can resume the build with the command
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   mvn <goals> -rf :util.cmn.ivs.Logging_1.0
+Started
+Build failed before it gets to this module
+Finished: NOT_BUILT

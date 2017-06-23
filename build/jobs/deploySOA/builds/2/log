@@ -1,0 +1,483 @@
+Started by user [8mha:////4LtfQNX7kl27S4V0s97PccaOSpbARv1X+7NO/SfLyE0tAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace D:\Monali\jenkins\workspace
+Cleaning local Directory .
+Checking out https://scm-coconet.capgemini.com/svn/repos/oracleidp/CI_2017 at revision '2017-03-14T15:22:57.896 +0530'
+A         src
+A         src\SOA
+A         src\SOA\test-soa-application.jws
+A         src\SOA\test-soa-project
+A         src\SOA\test-soa-project\test-soa-project_cfgplan.xml
+A         src\SOA\test-soa-project\test-soa-project.jpr
+A         src\SOA\test-soa-project\configplan.xml.xml
+A         src\SOA\test-soa-project\SOA
+A         src\SOA\test-soa-project\SOA\Events
+A         src\SOA\test-soa-project\SOA\Transformations
+A         src\SOA\test-soa-project\SOA\WSDLs
+A         src\SOA\test-soa-project\SOA\testsuites
+A         src\SOA\test-soa-project\SOA\testsuites\fileList.xml
+A         src\SOA\test-soa-project\SOA\configplan.xml.xml
+A         src\SOA\test-soa-project\SOA\SCA-INF
+A         src\SOA\test-soa-project\SOA\SCA-INF\classes
+A         src\SOA\test-soa-project\SOA\SCA-INF\classes\scac.log
+A         src\SOA\test-soa-project\SOA\SCA-INF\classesscac_out.xml
+A         src\SOA\test-soa-project\SOA\SCA-INF\gen-classes
+AU        src\SOA\test-soa-project\SOA\SCA-INF\test-soa-project.diagram.jpg
+A         src\SOA\test-soa-project\SOA\SCA-INF\test-soa-project.diagram.xml
+A         src\SOA\test-soa-project\SOA\SCA-INF\lib
+A         src\SOA\test-soa-project\SOA\SCA-INF\src
+A         src\SOA\test-soa-project\SOA\composite.xml
+A         src\SOA\test-soa-project\SOA\Schemas
+A         src\SOA\test-soa-project\target
+A         src\SOA\test-soa-project\target\maven-archiver
+A         src\SOA\test-soa-project\target\maven-archiver\pom.properties
+AU        src\SOA\test-soa-project\target\sca_test-soa-project_rev1.0-SNAPSHOT.jar
+A         src\SOA\test-soa-project\pom.xml
+A         src\SOA\test-soa-project1
+A         src\SOA\test-soa-project1\pom.xml
+A         src\SOA\test-soa-project1\test-soa-project1.jpr
+A         src\SOA\test-soa-project1\SOA
+A         src\SOA\test-soa-project1\SOA\SCA-INF
+A         src\SOA\test-soa-project1\SOA\SCA-INF\gen-classes
+A         src\SOA\test-soa-project1\SOA\SCA-INF\lib
+AU        src\SOA\test-soa-project1\SOA\SCA-INF\test-soa-project1.diagram.jpg
+A         src\SOA\test-soa-project1\SOA\SCA-INF\test-soa-project1.diagram.xml
+A         src\SOA\test-soa-project1\SOA\SCA-INF\src
+A         src\SOA\test-soa-project1\SOA\SCA-INF\classes
+A         src\SOA\test-soa-project1\SOA\composite.xml
+A         src\SOA\test-soa-project1\SOA\Schemas
+A         src\SOA\test-soa-project1\SOA\Events
+A         src\SOA\test-soa-project1\SOA\Transformations
+A         src\SOA\test-soa-project1\SOA\WSDLs
+A         src\SOA\test-soa-project1\SOA\testsuites
+A         src\SOA\test-soa-project1\SOA\testsuites\fileList.xml
+A         src\SOA\test-soa-project1\target
+A         src\SOA\test-soa-project1\target\maven-archiver
+A         src\SOA\test-soa-project1\target\maven-archiver\pom.properties
+A         src\SOA\test-soa-project1\target\classes
+A         src\SOA\test-soa-project1\target\classes\scac.log
+A         src\SOA\test-soa-project1\target\classesscac_out.xml
+AU        src\SOA\test-soa-project1\target\sca_test-soa-project1_rev1.0-SNAPSHOT.jar
+A         src\SOA\.data
+A         src\SOA\.data\00000000
+A         src\SOA\.data\00000000\je.lck
+AU        src\SOA\.data\00000000\00000000.jdb
+A         src\SOA\src
+A         src\SOA\src\META-INF
+A         src\SOA\src\META-INF\jps-config.xml
+A         src\SOA\.adf
+A         src\SOA\.adf\META-INF
+A         src\SOA\.adf\META-INF\adf-config.xml
+A         src\SOA\pom.xml
+A         src\OSB
+A         src\OSB\pom.xml
+A         src\OSB\resources
+A         src\OSB\resources\cap
+A         src\OSB\resources\cap\fin
+A         src\OSB\resources\cap\fin\ap
+A         src\OSB\resources\cap\fin\ap\ivs
+A         src\OSB\resources\cap\fin\ap\ivs\ProcessSupplierInvoice_1.0.wsdl
+A         src\OSB\resources\cap\fin\ap\ivs\ProcessSupplierInvoice_1.0.xsd
+A         src\OSB\resources\cap\fin\ap\dvm
+A         src\OSB\resources\cap\fin\ap\dvm\fin.ap.MesgDescMapping.dvm
+A         src\OSB\resources\cap\fin\gl
+A         src\OSB\resources\cap\fin\gl\ivs
+A         src\OSB\resources\cap\fin\gl\ivs\ProcessGeneralLedger_1.0.wsdl
+A         src\OSB\resources\cap\fin\gl\ivs\ProcessGeneralLedger_1.0.xsd
+A         src\OSB\resources\cap\fin\gl\dvm
+A         src\OSB\resources\cap\fin\gl\dvm\fin.gl.MesgDescMapping.dvm
+A         src\OSB\resources\cap\util
+A         src\OSB\resources\cap\util\cmn
+A         src\OSB\resources\cap\util\cmn\Fault_1.0.xsd
+A         src\OSB\resources\cap\util\cmn\dvm
+A         src\OSB\resources\cap\util\cmn\dvm\util.cmn.MesgDescMapping.dvm
+A         src\OSB\resources\cap\util\cmn\dvm\ServiceLevelAuditController.dvm
+A         src\OSB\resources\cap\util\cmn\dvm\EnvironmentLevelAuditController.dvm
+A         src\OSB\resources\cap\util\cmn\dvm\ResubmissionServiceLookup.dvm
+A         src\OSB\resources\cap\util\cmn\jar
+AU        src\OSB\resources\cap\util\cmn\jar\Base64Encoder.jar
+AU        src\OSB\resources\cap\util\cmn\jar\Base64EncodeDecode.jar
+A         src\OSB\resources\cap\util\cmn\xquery
+A         src\OSB\resources\cap\util\cmn\xquery\Transform_To_ERROR_LoggingRequest_1.0.xqy
+A         src\OSB\resources\cap\util\cmn\xquery\Transform_To_INFO_LoggingRequest_1.0.xqy
+A         src\OSB\resources\cap\util\cmn\xquery\Transform_To_StandardFault.xqy
+A         src\OSB\resources\cap\util\cmn\ivs
+A         src\OSB\resources\cap\util\cmn\ivs\CommonLogging_1.0.wsdl
+A         src\OSB\resources\cap\util\cmn\ivs\dvm
+A         src\OSB\resources\cap\util\cmn\ivs\dvm\EnvironmentLevelAuditController.dvm
+A         src\OSB\resources\cap\util\cmn\ivs\EmailNotification_1.0.xsd
+A         src\OSB\resources\cap\util\cmn\ivs\CommonLogging_1.0.xsd
+A         src\OSB\resources\cap\util\cmn\Header_1.0.xsd
+A         src\OSB\resources\cap\cm
+A         src\OSB\resources\cap\cm\sr
+A         src\OSB\resources\cap\cm\sr\ivs
+A         src\OSB\resources\cap\cm\sr\ivs\ProcessServiceRequest_1.0.xsd
+A         src\OSB\resources\cap\cm\sr\ivs\ProcessServiceRequest_1.0.wsdl
+A         src\OSB\resources\cap\cm\sr\dvm
+A         src\OSB\resources\cap\cm\sr\dvm\cm.sr.MesgDescMapping.dvm
+A         src\OSB\resources\cap\cm\sr\dvm\cm.sr.ivs.ProcessServiceRequest.dvm
+A         src\OSB\resources\cap\cm\cust
+A         src\OSB\resources\cap\cm\cust\bp
+A         src\OSB\resources\cap\cm\cust\bp\ProcessCustomerDetails_1.0.wsdl
+A         src\OSB\resources\cap\cm\cust\bp\ProcessCustomerDetails_1.0.xsd
+A         src\OSB\resources\cap\cm\cust\ivs
+A         src\OSB\resources\cap\cm\cust\ivs\ProcessCustomerDetails_1.0.xsd
+A         src\OSB\resources\cap\cm\cust\ivs\ProcessCustomerDetails_1.0.wsdl
+A         src\OSB\resources\cap\cm\cust\task
+A         src\OSB\resources\cap\cm\cust\task\ProcessCustomerDetails_1.0.wsdl
+A         src\OSB\resources\cap\cm\cust\task\ProcessCustomerDetails_1.0.xsd
+A         src\OSB\resources\cap\cm\cust\dvm
+A         src\OSB\resources\cap\cm\cust\dvm\cm.cust.MesgDescMapping.dvm
+A         src\OSB\resources\cap\app
+A         src\OSB\resources\cap\app\cm
+A         src\OSB\resources\cap\app\cm\dvm
+A         src\OSB\resources\cap\app\cm\dvm\cm.cust.MesgDescMapping.dvm
+A         src\OSB\resources\cap\app\pway
+A         src\OSB\resources\cap\app\pway\ivs
+A         src\OSB\resources\cap\app\pway\ivs\ProcessCustomerDetails_1.0.xsd
+A         src\OSB\resources\cap\app\pway\dvm
+A         src\OSB\resources\cap\app\pway\dvm\app.pway.MesgDescMapping.dvm
+A         src\OSB\resources\cap\app\cnar
+A         src\OSB\resources\cap\app\cnar\ivs
+A         src\OSB\resources\cap\app\cnar\ivs\ProcessCustomerDetails_1.0.wsdl
+A         src\OSB\resources\cap\app\cnar\ivs\ProcessCustomerDetails_1.0.xsd
+A         src\OSB\resources\cap\app\cnar\dvm
+A         src\OSB\resources\cap\app\cnar\dvm\app.cnar.MesgDescMapping.dvm
+A         src\OSB\resources\cap\app\cnar\dvm\app.cnar.ivs.ProcessCustomerDetails.dvm
+A         src\OSB\resources\cap\app\supp
+A         src\OSB\resources\cap\app\supp\dvm
+A         src\OSB\resources\cap\app\supp\dvm\app.supp.MesgDescMapping.dvm
+A         src\OSB\resources\cap\app\kronos
+A         src\OSB\resources\cap\app\kronos\dvm
+A         src\OSB\resources\cap\app\kronos\dvm\app.kronos.ivs.ProcessTimeAttendance.dvm
+A         src\OSB\resources\cap\app\kronos\dvm\app.kronos.MesgDescMapping.dvm
+A         src\OSB\resources\cap\app\kronos\dvm\v2.0
+A         src\OSB\resources\cap\app\kronos\dvm\v2.0\app.kronos.ivs.ProcessTimeAttendance.dvm
+A         src\OSB\resources\cap\app\kronos\dvm\v2.0\app.kronos.MesgDescMapping.dvm
+A         src\OSB\resources\cap\app\trim
+A         src\OSB\resources\cap\app\trim\dvm
+A         src\OSB\resources\cap\app\trim\dvm\app.trim.MesgDescMapping.dvm
+A         src\OSB\resources\cap\app\trim\bp
+A         src\OSB\resources\cap\app\trim\bp\ProcessCustomerResponse_1.0.wsdl
+A         src\OSB\resources\cap\app\trim\bp\ProcessCustomerResponse_1.0.xsd
+A         src\OSB\resources\cap\app\trim\ivs
+A         src\OSB\resources\cap\app\trim\ivs\ServiceRequestAttachment.wsdl
+A         src\OSB\resources\cap\app\trim\ivs\ProcessCustomerDetails_1.0.wsdl
+A         src\OSB\resources\cap\app\trim\ivs\ProcessSRCreationResponse_1.0.wsdl
+A         src\OSB\resources\cap\app\trim\ivs\ServiceRequestAttachment.xsd
+A         src\OSB\resources\cap\app\trim\ivs\ProcessCustomerDetails_1.0.xsd
+A         src\OSB\resources\cap\app\trim\ivs\ProcessSRCreationResponse_1.0.xsd
+A         src\OSB\resources\cap\hcm
+A         src\OSB\resources\cap\hcm\proll
+A         src\OSB\resources\cap\hcm\proll\ivs
+A         src\OSB\resources\cap\hcm\proll\ivs\ProcessTimeAttendance_1.0.xsd
+A         src\OSB\resources\cap\hcm\proll\ivs\ProcessTimeAttendance_1.0.wsdl
+A         src\OSB\resources\cap\hcm\proll\dvm
+A         src\OSB\resources\cap\hcm\proll\dvm\hcm.proll.MesgDescMapping.dvm
+A         src\OSB\resources\cap\hcm\hr
+A         src\OSB\resources\cap\hcm\hr\dvm
+A         src\OSB\resources\cap\hcm\hr\dvm\hcm.hr.MesgDescMapping.dvm
+A         src\OSB\resources\eo
+A         src\OSB\resources\eo\v1.0
+A         src\OSB\resources\eo\v1.0\payroll
+A         src\OSB\resources\eo\v1.0\payroll\PayrollDetails.xsd
+A         src\OSB\resources\eo\v1.0\common
+A         src\OSB\resources\eo\v1.0\common\Common.xsd
+A         src\OSB\resources\eo\v1.0\common\CommonEO.xsd
+A         src\OSB\resources\eo\v1.0\serviceRequest
+A         src\OSB\resources\eo\v1.0\serviceRequest\ServiceRequestDetails_1.0.xsd
+A         src\OSB\resources\eo\v1.0\serviceRequest\ServiceRequest_1.0.xsd
+A         src\OSB\resources\eo\v1.0\invoice
+A         src\OSB\resources\eo\v1.0\invoice\InvoiceDetails_1.0.xsd
+A         src\OSB\resources\eo\v1.0\file
+A         src\OSB\resources\eo\v1.0\file\FileDetails_1.0.xsd
+A         src\OSB\resources\eo\v1.0\customer
+A         src\OSB\resources\eo\v1.0\customer\FlagDetails_1.0.xsd
+A         src\OSB\resources\eo\v1.0\customer\ProcessCustomerDetails_1.0.xsd
+A         src\OSB\resources\eo\v1.0\customer\CustomerDetails_1.0.xsd
+A         src\OSB\resources\eo\v1.0\customer\ApplicationDetails_1.0.xsd
+A         src\OSB\resources\resources.jpr
+A         src\OSB\resources\servicebus.sboverview
+A         src\OSB\resources\pom.xml
+A         src\OSB\util
+A         src\OSB\util\cmn
+A         src\OSB\util\cmn\ivs
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\BusinessServices
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\BusinessServices\PublishLoggingMessage.bix
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\BusinessServices\CMN_LOGGING.bix
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\BusinessServices\CMN_AUDIT_ERROR.bix
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\servicebus.sboverview
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\ProxyServices
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\ProxyServices\Logging.proxy
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\ProxyServices\Logging.pipeline
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\util.cmn.ivs.Logging_1.0.jpr
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\wsdl
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_AUDIT_ERROR-concrete.wsdl
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_AUDIT_ERROR.wsdl
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_LOGGING_db.jca
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_AUDIT_ERROR-or-mappings.xml
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_AUDIT_ERROR-properties.xml
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_LOGGING_table.xsd
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_LOGGING-concrete.wsdl
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_LOGGING.wsdl
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_LOGGING-or-mappings.xml
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_LOGGING-properties.xml
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_AUDIT_ERROR_db.jca
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\jca\CMN_AUDIT_ERROR_table.xsd
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\xquery
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\xquery\Transform_LoggingRequestToInsertCMN_LOGGINGReq.xqy
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\xquery\Transform_LoggignRequestToCreateCMN_AUDIT_ERRORReq.xqy
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\Resources\xsd
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\pom.xml
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\.settings
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\.settings\oracle.xquery.mapper.jdev.model
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\.settings\oracle.xquery.mapper.jdev.model\Resources
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\.settings\oracle.xquery.mapper.jdev.model\Resources\xquery
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\.settings\oracle.xquery.mapper.jdev.model\Resources\xquery\untitled1.xqy.xml
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\.settings\oracle.xquery.mapper.jdev.model\Resources\xquery\Transform_LoggingRequestToInsertCMN_LOGGINGReq.xqy.xml
+A         src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0\.settings\oracle.xquery.mapper.jdev.model\Resources\xquery\Transform_LoggignRequestToCreateErrorMessage.xqy.xml
+A         src\OSB\app
+A         src\OSB\app\trim
+A         src\OSB\app\trim\ivs
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\servicebus.sboverview
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\ProxyServices
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\ProxyServices\ProcessServiceRequestPipeline.pipeline
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\ProxyServices\ProcessServiceRequest.proxy
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\app.trim.ivs.ProcessServiceRequest_1.0.jpr
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_HRDOC2TRIM-concrete.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_HRDOC2TRIM.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\xquery
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\xquery\Transform_IVSRequestToCRMREP2TRIMReq.xqy
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\xquery\Transform_IVSRequestToInsertHRDOC2TRIM.xqy
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\xquery\Transform_IVSRequestToUpdateCRMToTRIM.xqy
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\xquery\Transform_ReceiveSRAttachmentDetailsToSRDoc2TRIM.xqy
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_CRMREP2TRIM_db.jca
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_SRDOCTRIM_db.jca
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_CRMREP2TRIM_table.xsd
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_SRDOCTRIM_table.xsd
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_CRMREP2TRIM-concrete.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_CRMREP2TRIM.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_SRDOCTRIM-concrete.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_SRDOCTRIM.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_CRMREP2TRIM-or-mappings.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_CRMREP2TRIM-properties.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_SRDOCTRIM-or-mappings.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\jca\DB_SRDOCTRIM-properties.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateTRIMToCRM_dbReference-properties.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateTRIMToCRM_dbReference-or-mappings.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateCRMToTRIM_dbReference-properties.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateCRMToTRIM_dbReference-or-mappings.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_HRDOC2TRIM-or-mappings.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_HRDOC2TRIM-properties.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateTRIMToCRM_dbReference_db.jca
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateCRMToTRIM_dbReference_db.jca
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateTRIMToCRM_dbReference_table.xsd
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateCRMToTRIM_dbReference_table.xsd
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_HRDOC2TRIM_db.jca
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateCRMToTRIM_dbReference-concrete.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateCRMToTRIM_dbReference.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateTRIMToCRM_dbReference-concrete.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_UpdateTRIMToCRM_dbReference.wsdl
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\Resources\DB_HRDOC2TRIM_table.xsd
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\pom.xml
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\BusinessServices
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\BusinessServices\DB_CRMREP2TRIM.bix
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\BusinessServices\DB_SRDOCTRIM.bix
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\BusinessServices\DB_UpdateCRMToTRIM_dbReference.bix
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\BusinessServices\DB_UpdateTRIMToCRM_dbReference.bix
+A         src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0\BusinessServices\DB_HRDOC2TRIM.bix
+A         build
+A         build\jobs
+A         build\jars
+AU        build\jars\xmltask.jar
+AU        build\jars\ant-contrib-1.0b3.jar
+A         build\scripts
+A         build\scripts\setenv.sh
+A         build\scripts\wlstTaskDefs.xml
+A         build\scripts\build.xml
+A         build\scripts\temp
+A         build\scripts\build.properties
+A         build\customizations
+A         build\customizations\resources_OSBCustomizationFile.xml
+A         build\customizations\util.cmn.ivs.Logging_1.0_OSBCustomizationFile.xml
+A         build\customizations\app.trim.ivs.ProcessServiceRequest_1.0_OSBCustomizationFile.xml
+A         build\properties
+A         build\properties\envspecific
+A         build\properties\envspecific\devEnv.properties
+A         build\properties\envspecific\sitEnv.properties
+A         build\properties\envspecific\devReplaceToken.properties
+A         build\properties\envspecific\sitReplaceToken.properties
+A         build\properties\env.properties
+A         build\properties\replaceToken.properties
+At revision 309
+
+No revision recorded for https://scm-coconet.capgemini.com/svn/repos/oracleidp/CI_2017 in the previous build
+Parsing POMs
+Established TCP socket on 63786
+[SOA] $ "C:\Program Files\Java\jdk1.8.0_92/bin/java" -cp "C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-agent-1.8.1.jar;C:\Oracle\Middleware12c211\oracle_common\modules\org.apache.maven_3.2.5\boot\plexus-classworlds-2.5.2.jar;C:\Oracle\Middleware12c211\oracle_common\modules\org.apache.maven_3.2.5/conf/logging" jenkins.maven3.agent.Maven32Main C:\Oracle\Middleware12c211\oracle_common\modules\org.apache.maven_3.2.5 "C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.5.jar" "C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.8.1.jar" "C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.8.1.jar" 63786
+<===[JENKINS REMOTING CAPACITY]===>   channel started
+Executing Maven:  -B -f D:\Monali\jenkins\workspace\src\SOA\pom.xml integration-test
+[INFO] Scanning for projects...
+[8mha:////4BKoKNbCSsbpJnMJsrDrifgX7DD48BYRwRDOk30qTxCMAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4BKoKNbCSsbpJnMJsrDrifgX7DD48BYRwRDOk30qTxCMAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for org.my.test:test-soa-project:sar:1.0-SNAPSHOT
+[8mha:////4BKoKNbCSsbpJnMJsrDrifgX7DD48BYRwRDOk30qTxCMAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[8mha:////4BKoKNbCSsbpJnMJsrDrifgX7DD48BYRwRDOk30qTxCMAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4BKoKNbCSsbpJnMJsrDrifgX7DD48BYRwRDOk30qTxCMAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Some problems were encountered while building the effective model for org.my.test:test-soa-project1:sar:1.0-SNAPSHOT
+[8mha:////4BKoKNbCSsbpJnMJsrDrifgX7DD48BYRwRDOk30qTxCMAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[8mha:////4BKoKNbCSsbpJnMJsrDrifgX7DD48BYRwRDOk30qTxCMAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4BKoKNbCSsbpJnMJsrDrifgX7DD48BYRwRDOk30qTxCMAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[8mha:////4BKoKNbCSsbpJnMJsrDrifgX7DD48BYRwRDOk30qTxCMAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[8mha:////4BKoKNbCSsbpJnMJsrDrifgX7DD48BYRwRDOk30qTxCMAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[8mha:////4BKoKNbCSsbpJnMJsrDrifgX7DD48BYRwRDOk30qTxCMAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] test-soa-application
+[INFO] test-soa-project
+[INFO] test-soa-project1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building test-soa-application 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building test-soa-project 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- properties-maven-plugin:1.0-alpha-2:read-project-properties (default) @ test-soa-project ---
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ test-soa-project ---
+[8mha:////4BKoKNbCSsbpJnMJsrDrifgX7DD48BYRwRDOk30qTxCMAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Monali\jenkins\workspace\src\SOA\test-soa-project\src\main\resources
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- oracle-soa-plugin:12.2.1-1-0:compile (default-compile) @ test-soa-project ---
+[INFO] ------------------------------------------------------------------------
+[INFO] ORACLE SOA MAVEN PLUGIN - COMPILE
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] ABOUT TO RUN oracle.soa.scac.ValidateComposite...
+[INFO] The environment variable/property 'common.components.home' is not set.
+[INFO] The environment variable/property 'soa.oracle.home' is not set.
+[INFO] The environment variable/property 'oracle.home' or 'soa.oracle.com is not set.
+[INFO] If you want to compile a composite with a component that depends
+on MDS - like a Human Task or Business Rule - AND you want to use a file
+based MDS repository, you will need to specify 'oracle.home' AND 'soa.oracle.com' OR update
+your .adf/META-INF/adf-config.xml to point to your file-based MDS.
+If you specify oracle.home it must point to the SOA Quickstart or 
+JDeveloper install directory with '/soa' appended to it, unless you
+update the adf-config.xml to remove the reference to oracle.home.
+[INFO] compile: Executing: [cmd:[C:\Program Files\Java\jdk1.8.0_92\bin\java, -Djava.protocol.handler.pkgs=oracle.mds.net.protocol|oracle.fabric.common.classloaderurl.handler|oracle.fabric.common.uddiurl.handler, -Doracle.home=C:/Oracle/Middleware12c211, oracle.soa.scac.ValidateComposite, D:\Monali\jenkins\workspace\src\SOA\test-soa-project\SOA/composite.xml, -level=1]]
+[INFO] Process being executed, waiting for completion.
+[INFO] Process log is being buffered and will only be shown if there is an error executing the process.  If you want to see the logs as the process is run then pass -DshowProcessLog=true
+[INFO] compile: [cmd:[C:\Program Files\Java\jdk1.8.0_92\bin\java, -Djava.protocol.handler.pkgs=oracle.mds.net.protocol|oracle.fabric.common.classloaderurl.handler|oracle.fabric.common.uddiurl.handler, -Doracle.home=C:/Oracle/Middleware12c211, oracle.soa.scac.ValidateComposite, D:\Monali\jenkins\workspace\src\SOA\test-soa-project\SOA/composite.xml, -level=1]] exit code=0
+[INFO] SOA COMPILE DONE
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ test-soa-project ---
+[8mha:////4BKoKNbCSsbpJnMJsrDrifgX7DD48BYRwRDOk30qTxCMAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Monali\jenkins\workspace\src\SOA\test-soa-project\src\test\resources
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ test-soa-project ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ test-soa-project ---
+[INFO] No tests to run.
+[JENKINS] Recording test results
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- oracle-soa-plugin:12.2.1-1-0:sar (default-sar) @ test-soa-project ---
+[INFO] Building sar: D:\Monali\jenkins\workspace\src\SOA\test-soa-project\target\sca_test-soa-project_rev1.0-SNAPSHOT.jar
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- oracle-soa-plugin:12.2.1-1-0:deploy (default-deploy) @ test-soa-project ---
+[INFO] ------------------------------------------------------------------------
+[INFO] ORACLE SOA MAVEN PLUGIN - DEPLOY COMPOSITE
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] setting user/password..., user=weblogic
+Processing sar=D:\Monali\jenkins\workspace\src\SOA\test-soa-project/target/sca_test-soa-project_rev1.0-SNAPSHOT.jar
+Adding sar file - D:\Monali\jenkins\workspace\src\SOA\test-soa-project\target\sca_test-soa-project_rev1.0-SNAPSHOT.jar
+INFO: Creating HTTP connection to host:localhost, port:7001
+INFO: Received HTTP response from the server, response code=200
+---->Deploying composite success.
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building test-soa-project1 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- properties-maven-plugin:1.0-alpha-2:read-project-properties (default) @ test-soa-project1 ---
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ test-soa-project1 ---
+[8mha:////4BKoKNbCSsbpJnMJsrDrifgX7DD48BYRwRDOk30qTxCMAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Monali\jenkins\workspace\src\SOA\test-soa-project1\src\main\resources
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- oracle-soa-plugin:12.2.1-1-0:compile (default-compile) @ test-soa-project1 ---
+[INFO] ------------------------------------------------------------------------
+[INFO] ORACLE SOA MAVEN PLUGIN - COMPILE
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] ABOUT TO RUN oracle.soa.scac.ValidateComposite...
+[INFO] The environment variable/property 'common.components.home' is not set.
+[INFO] The environment variable/property 'soa.oracle.home' is not set.
+[INFO] The environment variable/property 'oracle.home' or 'soa.oracle.com is not set.
+[INFO] If you want to compile a composite with a component that depends
+on MDS - like a Human Task or Business Rule - AND you want to use a file
+based MDS repository, you will need to specify 'oracle.home' AND 'soa.oracle.com' OR update
+your .adf/META-INF/adf-config.xml to point to your file-based MDS.
+If you specify oracle.home it must point to the SOA Quickstart or 
+JDeveloper install directory with '/soa' appended to it, unless you
+update the adf-config.xml to remove the reference to oracle.home.
+[INFO] compile: Executing: [cmd:[C:\Program Files\Java\jdk1.8.0_92\bin\java, -Djava.protocol.handler.pkgs=oracle.mds.net.protocol|oracle.fabric.common.classloaderurl.handler|oracle.fabric.common.uddiurl.handler, -Doracle.home=C:/Oracle/Middleware12c211, oracle.soa.scac.ValidateComposite, D:\Monali\jenkins\workspace\src\SOA\test-soa-project1/SOA//composite.xml, -level=1]]
+[INFO] Process being executed, waiting for completion.
+[INFO] Process log is being buffered and will only be shown if there is an error executing the process.  If you want to see the logs as the process is run then pass -DshowProcessLog=true
+[INFO] compile: [cmd:[C:\Program Files\Java\jdk1.8.0_92\bin\java, -Djava.protocol.handler.pkgs=oracle.mds.net.protocol|oracle.fabric.common.classloaderurl.handler|oracle.fabric.common.uddiurl.handler, -Doracle.home=C:/Oracle/Middleware12c211, oracle.soa.scac.ValidateComposite, D:\Monali\jenkins\workspace\src\SOA\test-soa-project1/SOA//composite.xml, -level=1]] exit code=0
+[INFO] SOA COMPILE DONE
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ test-soa-project1 ---
+[8mha:////4BKoKNbCSsbpJnMJsrDrifgX7DD48BYRwRDOk30qTxCMAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Monali\jenkins\workspace\src\SOA\test-soa-project1\src\test\resources
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ test-soa-project1 ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ test-soa-project1 ---
+[INFO] No tests to run.
+[JENKINS] Recording test results
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- oracle-soa-plugin:12.2.1-1-0:sar (default-sar) @ test-soa-project1 ---
+[INFO] Building sar: D:\Monali\jenkins\workspace\src\SOA\test-soa-project1\target\sca_test-soa-project1_rev1.0-SNAPSHOT.jar
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- oracle-soa-plugin:12.2.1-1-0:deploy (default-deploy) @ test-soa-project1 ---
+[INFO] ------------------------------------------------------------------------
+[INFO] ORACLE SOA MAVEN PLUGIN - DEPLOY COMPOSITE
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] setting user/password..., user=weblogic
+Processing sar=D:\Monali\jenkins\workspace\src\SOA\test-soa-project1/target/sca_test-soa-project1_rev1.0-SNAPSHOT.jar
+Adding sar file - D:\Monali\jenkins\workspace\src\SOA\test-soa-project1\target\sca_test-soa-project1_rev1.0-SNAPSHOT.jar
+INFO: Creating HTTP connection to host:localhost, port:7001
+INFO: Received HTTP response from the server, response code=200
+---->Deploying composite success.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] test-soa-application ............................... SUCCESS [  0.036 s]
+[INFO] test-soa-project ................................... SUCCESS [  8.938 s]
+[INFO] test-soa-project1 .................................. SUCCESS [  1.559 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 12.258 s
+[INFO] Finished at: 2017-03-14T15:23:28+05:30
+[INFO] Final Memory: 20M/177M
+[INFO] ------------------------------------------------------------------------
+Waiting for Jenkins to finish collecting data
+[JENKINS] Archiving D:\Monali\jenkins\workspace\src\SOA\test-soa-project1\pom.xml to org.my.test/test-soa-project1/1.0-SNAPSHOT/test-soa-project1-1.0-SNAPSHOT.pom
+[JENKINS] Archiving D:\Monali\jenkins\workspace\src\SOA\test-soa-project1\target\sca_test-soa-project1_rev1.0-SNAPSHOT.jar to org.my.test/test-soa-project1/1.0-SNAPSHOT/test-soa-project1-1.0-SNAPSHOT.jar
+[JENKINS] Archiving D:\Monali\jenkins\workspace\src\SOA\pom.xml to org.my.test/test-soa-application/1.0-SNAPSHOT/test-soa-application-1.0-SNAPSHOT.pom
+[JENKINS] Archiving D:\Monali\jenkins\workspace\src\SOA\test-soa-project\pom.xml to org.my.test/test-soa-project/1.0-SNAPSHOT/test-soa-project-1.0-SNAPSHOT.pom
+[JENKINS] Archiving D:\Monali\jenkins\workspace\src\SOA\test-soa-project\target\sca_test-soa-project_rev1.0-SNAPSHOT.jar to org.my.test/test-soa-project/1.0-SNAPSHOT/test-soa-project-1.0-SNAPSHOT.jar
+channel stopped
+Finished: SUCCESS

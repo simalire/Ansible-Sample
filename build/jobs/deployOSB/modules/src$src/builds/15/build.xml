@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@2.15.1">
+  <actions>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record/>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>src</groupId>
+        <artifactId>src</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>src-1.0-SNAPSHOT.pom</canonicalName>
+        <md5sum>20db4ef93e59a9d2b386792115afc4ce</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+    </hudson.maven.reporters.MavenArtifactRecord>
+  </actions>
+  <queueId>-1</queueId>
+  <timestamp>1489060883195</timestamp>
+  <startTime>1489060892985</startTime>
+  <result>SUCCESS</result>
+  <duration>262</duration>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\Monali\jenkins\workspace\src\OSB</workspace>
+</hudson.maven.MavenBuild>

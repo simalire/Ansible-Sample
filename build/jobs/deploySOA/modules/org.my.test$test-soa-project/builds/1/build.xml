@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@2.15.1">
+  <actions>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>org.my.test:test-soa-project:pom.xml</string>
+          <string>0f3f2f7a177053b3ef0d28ca9a7e3f54</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>org.my.test</groupId>
+        <artifactId>test-soa-project</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>test-soa-project-1.0-SNAPSHOT.pom</canonicalName>
+        <md5sum>0f3f2f7a177053b3ef0d28ca9a7e3f54</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+    </hudson.maven.reporters.MavenArtifactRecord>
+  </actions>
+  <queueId>-1</queueId>
+  <timestamp>1489485018579</timestamp>
+  <startTime>1489485027821</startTime>
+  <result>FAILURE</result>
+  <duration>552</duration>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\Monali\jenkins\workspace\test-soa-project</workspace>
+  <executedMojos class="java.util.concurrent.CopyOnWriteArrayList">
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>properties-maven-plugin</artifactId>
+      <version>1.0-alpha-2</version>
+      <goal>read-project-properties</goal>
+      <executionId>default</executionId>
+      <duration>179</duration>
+      <digest>d85cd1049cd079d4306fa5b47e510292</digest>
+    </hudson.maven.ExecutedMojo>
+  </executedMojos>
+</hudson.maven.MavenBuild>

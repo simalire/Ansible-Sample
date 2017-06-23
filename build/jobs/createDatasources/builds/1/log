@@ -1,0 +1,37 @@
+Started by user [8mha:////4LtfQNX7kl27S4V0s97PccaOSpbARv1X+7NO/SfLyE0tAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace D:\Monali\jenkins\workspace
+Checking out a fresh workspace because there's no workspace at D:\Monali\jenkins\workspace
+Cleaning local Directory .
+Checking out https://coconet-svn-in-01.capgemini.com/svn/repos/powercorintegration/projects/ci/weblogicResources at revision '2017-02-28T15:33:17.431 +0530'
+A         readme.txt
+A         details.properties
+A         createMultipleDataSource.py
+A         createDBJNDI.py
+At revision 1084
+
+[workspace] $ python C:\WINDOWS\TEMP\hudson6543300909588697663.py
+The system cannot find the file specified
+FATAL: command execution failed
+[8mha:////4Bvr9B2VJ2Igs1p5hrA/OjigXskA9pJnjT17GWs5ccjGAAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mjava.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(Unknown Source)
+	at java.lang.ProcessImpl.start(Unknown Source)
+Caused: java.io.IOException: Cannot run program "python" (in directory "D:\Monali\jenkins\workspace"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source)
+	at hudson.Proc$LocalProc.<init>(Proc.java:245)
+	at hudson.Proc$LocalProc.<init>(Proc.java:214)
+	at hudson.Launcher$LocalLauncher.launch(Launcher.java:846)
+	at hudson.Launcher$ProcStarter.start(Launcher.java:384)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:109)
+	at hudson.tasks.CommandInterpreter.perform(CommandInterpreter.java:66)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:779)
+	at hudson.model.Build$BuildExecution.build(Build.java:206)
+	at hudson.model.Build$BuildExecution.doRun(Build.java:163)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:534)
+	at hudson.model.Run.execute(Run.java:1728)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:43)
+	at hudson.model.ResourceController.execute(ResourceController.java:98)
+	at hudson.model.Executor.run(Executor.java:405)
+Build step 'Execute Python script' marked build as failure
+Finished: FAILURE

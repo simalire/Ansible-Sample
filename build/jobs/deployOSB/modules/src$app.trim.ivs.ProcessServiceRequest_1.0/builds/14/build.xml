@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@2.15.1">
+  <actions>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>src:app.trim.ivs.ProcessServiceRequest_1.0:pom.xml</string>
+          <string>08394a76e18e3a571df75add4a684354</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>src</groupId>
+        <artifactId>app.trim.ivs.ProcessServiceRequest_1.0</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>app.trim.ivs.ProcessServiceRequest_1.0-1.0-SNAPSHOT.pom</canonicalName>
+        <md5sum>08394a76e18e3a571df75add4a684354</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+    </hudson.maven.reporters.MavenArtifactRecord>
+  </actions>
+  <queueId>-1</queueId>
+  <timestamp>1489060445358</timestamp>
+  <startTime>1489060497765</startTime>
+  <result>FAILURE</result>
+  <duration>24</duration>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\Monali\jenkins\workspace\src\OSB\app\trim\ivs\app.trim.ivs.ProcessServiceRequest_1.0</workspace>
+  <executedMojos class="java.util.concurrent.CopyOnWriteArrayList">
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>properties-maven-plugin</artifactId>
+      <version>1.0-alpha-2</version>
+      <goal>read-project-properties</goal>
+      <executionId>default</executionId>
+      <duration>3</duration>
+      <digest>d85cd1049cd079d4306fa5b47e510292</digest>
+    </hudson.maven.ExecutedMojo>
+  </executedMojos>
+</hudson.maven.MavenBuild>

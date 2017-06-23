@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<maven2 plugin="maven-plugin@2.15.1">
+  <actions/>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>false</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <reporters/>
+  <displayName>test-soa-project1</displayName>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>sar</packaging>
+  <relativePath>src/SOA/test-soa-project1</relativePath>
+  <dependencies>
+    <dependency>
+      <groupId>org.my.test</groupId>
+      <artifactId>test-soa-application</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <plugin>false</plugin>
+    </dependency>
+    <dependency>
+      <groupId>com.oracle.soa.plugin</groupId>
+      <artifactId>oracle-soa-plugin</artifactId>
+      <version>12.2.1-1-0</version>
+      <plugin>true</plugin>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>properties-maven-plugin</artifactId>
+      <version>1.0-alpha-2</version>
+      <plugin>true</plugin>
+    </dependency>
+  </dependencies>
+  <children/>
+</maven2>

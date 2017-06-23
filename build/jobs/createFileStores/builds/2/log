@@ -1,0 +1,62 @@
+Started by upstream project "[8mha:////4DM5ExHdVDGO4oXctDhE7FZnMIjnFDnGwTC40cjPB2DeAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzhEgZJ/az8JP2S1OKSgMyCVKCtqQVF+VmpySX6ACVqvtTOAAAA[0mtestPipelineproject" build number [8mha:////4KyKDKzkBPLhW/ixc1orBfBD5KhFPoQdX9Fw8b/ES+TEAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBin9rPwk/ZLU4pKAzIJUoK2pBUX5WanJJfrGAGczu53PAAAA[0m3
+originally caused by:
+ Started by user [8mha:////4LtfQNX7kl27S4V0s97PccaOSpbARv1X+7NO/SfLyE0tAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace D:\Monali\jenkins\workspace@2
+Checking out a fresh workspace because there's no workspace at D:\Monali\jenkins\workspace@2
+Cleaning local Directory .
+Checking out https://coconet-svn-in-01.capgemini.com/svn/repos/powercorintegration/projects/ci/weblogicResources/serversetup at revision '2017-03-02T17:15:35.606 +0530'
+A         setenv.sh
+A         wlstTaskDefs.xml
+A         build.xml
+A         temp
+A         build.properties
+At revision 1088
+
+No changes for https://coconet-svn-in-01.capgemini.com/svn/repos/powercorintegration/projects/ci/weblogicResources/serversetup since the previous build
+[workspace@2] $ cmd.exe /C "C:\Oracle\Middleware12c211\oracle_common\modules\org.apache.ant_1.9.2\bin\ant.bat createFileStores && exit %%ERRORLEVEL%%"
+Buildfile: D:\Monali\jenkins\workspace@2\build.xml
+
+[8mha:////4PtBWaCfsPu/tiDiQJ+Iua0bo5AMX/8fDgR8zRnaeFECAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcreateFileStores:
+     [echo] create-File-Stores
+
+[8mha:////4PtBWaCfsPu/tiDiQJ+Iua0bo5AMX/8fDgR8zRnaeFECAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minternal_FileStore-create:
+     [wlst] Connecting to t3://localhost:7001 with userid weblogic ...
+     [wlst] Successfully connected to Admin Server "AdminServer" that belongs to domain "standalone_domain".
+     [wlst] 
+     [wlst] Warning: An insecure protocol was used to connect to the server. 
+     [wlst] To ensure on-the-wire security, the SSL port or Admin port should be used instead.
+     [wlst] 
+     [wlst] Location changed to edit tree. 	 
+     [wlst] This is a writable tree with DomainMBean as the root. 	 
+     [wlst] To make changes you will need to start an edit session via startEdit(). 
+     [wlst] For more help, use help('edit').
+     [wlst] You already have an edit session in progress and hence WLST will 
+     [wlst] continue with your edit session.
+     [wlst] 
+     [wlst] Starting an edit session ...
+     [wlst] Started edit session, be sure to save and activate your changes once you are done.
+     [wlst] Unexpected error: weblogic.descriptor.BeanAlreadyExistsException
+     [wlst] Discarded all your changes successfully.
+     [wlst] Edit session has been stopped successfully.
+
+[8mha:////4PtBWaCfsPu/tiDiQJ+Iua0bo5AMX/8fDgR8zRnaeFECAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minternal_FileStore-create:
+     [wlst] Connecting to t3://localhost:7001 with userid weblogic ...
+     [wlst] Successfully connected to Admin Server "AdminServer" that belongs to domain "standalone_domain".
+     [wlst] 
+     [wlst] Warning: An insecure protocol was used to connect to the server. 
+     [wlst] To ensure on-the-wire security, the SSL port or Admin port should be used instead.
+     [wlst] 
+     [wlst] Location changed to edit tree. 	 
+     [wlst] This is a writable tree with DomainMBean as the root. 	 
+     [wlst] To make changes you will need to start an edit session via startEdit(). 
+     [wlst] For more help, use help('edit').
+     [wlst] 
+     [wlst] Starting an edit session ...
+     [wlst] Started edit session, be sure to save and activate your changes once you are done.
+     [wlst] Unexpected error: weblogic.descriptor.BeanAlreadyExistsException
+     [wlst] Discarded all your changes successfully.
+     [wlst] Edit session has been stopped successfully.
+
+[8mha:////4D0IQNEa/KM24g16AauiUYcEHDq9p0gn3Nh8vm5KWZi7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 36 seconds
+Finished: SUCCESS

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@2.15.1">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.scm.SubversionTagAction plugin="subversion@2.7.1">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <hudson.scm.SubversionSCM_-SvnInfo>
+            <url>https://scm-coconet.capgemini.com/svn/repos/oracleidp/CI_2017/src/SOA</url>
+            <revision>309</revision>
+          </hudson.scm.SubversionSCM_-SvnInfo>
+          <list/>
+        </entry>
+      </tags>
+    </hudson.scm.SubversionTagAction>
+    <hudson.scm.SVNRevisionState plugin="subversion@2.7.1">
+      <revisions>
+        <entry>
+          <string>https://scm-coconet.capgemini.com/svn/repos/oracleidp/CI_2017/src/SOA</string>
+          <long>309</long>
+        </entry>
+      </revisions>
+    </hudson.scm.SVNRevisionState>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>org.my.test:test-soa-project:pom.xml</string>
+          <string>0f3f2f7a177053b3ef0d28ca9a7e3f54</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>1</queueId>
+  <timestamp>1489484995832</timestamp>
+  <startTime>1489484995949</startTime>
+  <result>FAILURE</result>
+  <duration>37081</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\Monali\jenkins\workspace</workspace>
+  <hudsonVersion>2.48</hudsonVersion>
+  <scm class="hudson.scm.SubversionChangeLogParser" plugin="subversion@2.7.1">
+    <ignoreDirPropChanges>false</ignoreDirPropChanges>
+  </scm>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+  <mavenVersionUsed>3.2.5</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>

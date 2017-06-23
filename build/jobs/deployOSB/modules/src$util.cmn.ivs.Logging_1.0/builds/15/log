@@ -1,0 +1,14 @@
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building util.cmn.ivs.Logging_1.0 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- properties-maven-plugin:1.0-alpha-2:read-project-properties (default) @ util.cmn.ivs.Logging_1.0 ---
+[INFO] 
+[INFO] --- replacer:1.5.3:replace (default) @ util.cmn.ivs.Logging_1.0 ---
+[INFO] Replacement run on 1 file.
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- oracle-servicebus-plugin:12.2.1-1-0:package (default-package) @ util.cmn.ivs.Logging_1.0 ---
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- oracle-servicebus-plugin:12.2.1-1-0:deploy (default-deploy) @ util.cmn.ivs.Logging_1.0 ---
+[INFO] Service Bus Archive deployed using session Service_Bus_Maven-util.cmn.ivs.Logging_1.0-1489060931403.

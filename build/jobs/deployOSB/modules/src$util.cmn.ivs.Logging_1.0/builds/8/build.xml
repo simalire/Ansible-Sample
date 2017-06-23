@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@2.15.1">
+  <actions>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>src:util.cmn.ivs.Logging_1.0:pom.xml</string>
+          <string>35b80068e33cdc2f7502ef3aff2b89e5</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>src</groupId>
+        <artifactId>util.cmn.ivs.Logging_1.0</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>util.cmn.ivs.Logging_1.0-1.0-SNAPSHOT.pom</canonicalName>
+        <md5sum>35b80068e33cdc2f7502ef3aff2b89e5</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+    </hudson.maven.reporters.MavenArtifactRecord>
+  </actions>
+  <queueId>-1</queueId>
+  <timestamp>1488547682194</timestamp>
+  <startTime>1488547716561</startTime>
+  <result>FAILURE</result>
+  <duration>155</duration>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\Monali\jenkins\workspace\src\OSB\util\cmn\ivs\util.cmn.ivs.Logging_1.0</workspace>
+  <executedMojos class="java.util.concurrent.CopyOnWriteArrayList">
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>properties-maven-plugin</artifactId>
+      <version>1.0-alpha-2</version>
+      <goal>read-project-properties</goal>
+      <executionId>default</executionId>
+      <duration>4</duration>
+      <digest>d85cd1049cd079d4306fa5b47e510292</digest>
+    </hudson.maven.ExecutedMojo>
+    <hudson.maven.ExecutedMojo>
+      <groupId>com.google.code.maven-replacer-plugin</groupId>
+      <artifactId>replacer</artifactId>
+      <version>1.5.3</version>
+      <goal>replace</goal>
+      <executionId>default</executionId>
+      <duration>109</duration>
+      <digest>45f18c093c725a2d59ecdd33df99c3d4</digest>
+    </hudson.maven.ExecutedMojo>
+  </executedMojos>
+</hudson.maven.MavenBuild>

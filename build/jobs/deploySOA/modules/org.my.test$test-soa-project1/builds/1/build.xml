@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@2.15.1">
+  <actions>
+    <hudson.maven.reporters.MavenArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+      <pomArtifact>
+        <groupId>org.my.test</groupId>
+        <artifactId>test-soa-project1</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <type>pom</type>
+        <fileName>pom.xml</fileName>
+        <canonicalName>test-soa-project1-1.0-SNAPSHOT.pom</canonicalName>
+        <md5sum>3258f0f769fbe821977869fa5157a55f</md5sum>
+      </pomArtifact>
+      <mainArtifact reference="../pomArtifact"/>
+      <attachedArtifacts/>
+    </hudson.maven.reporters.MavenArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record/>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>-1</queueId>
+  <timestamp>1489485018583</timestamp>
+  <startTime>1489485028622</startTime>
+  <result>NOT_BUILT</result>
+  <duration>2</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\Monali\jenkins\workspace\test-soa-project1</workspace>
+</hudson.maven.MavenBuild>

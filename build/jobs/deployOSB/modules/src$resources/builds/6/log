@@ -1,0 +1,11 @@
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building resources 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- properties-maven-plugin:1.0-alpha-2:read-project-properties (default) @ resources ---
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- oracle-servicebus-plugin:12.2.1-1-0:package (default-package) @ resources ---
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- oracle-servicebus-plugin:12.2.1-1-0:deploy (default-deploy) @ resources ---
+[INFO] Service Bus Archive deployed using session Service_Bus_Maven-resources-1488547375596.

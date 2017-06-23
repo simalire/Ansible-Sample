@@ -1,0 +1,21 @@
+Started by user [8mha:////4LtfQNX7kl27S4V0s97PccaOSpbARv1X+7NO/SfLyE0tAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace D:\Monali\jenkins\workspace
+Updating https://scm-coconet.capgemini.com/svn/repos/oracleidp/CI_2017/build/scripts at revision '2017-03-03T12:53:11.947 +0530'
+U         build.properties
+At revision 288
+
+[workspace] $ cmd.exe /C "C:\Oracle\Middleware12c211\oracle_common\modules\org.apache.ant_1.9.2\bin\ant.bat createCreateJMSQueuesOrTopics && exit %%ERRORLEVEL%%"
+Buildfile: D:\Monali\jenkins\workspace\build.xml
+
+[8mha:////4PtBWaCfsPu/tiDiQJ+Iua0bo5AMX/8fDgR8zRnaeFECAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcreateCreateJMSQueuesOrTopics:
+     [echo] Create JMS Queues Or Topics
+
+[8mha:////4PtBWaCfsPu/tiDiQJ+Iua0bo5AMX/8fDgR8zRnaeFECAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0minternal_JMSQueueOrTopic-create:
+
+[8mha:////4D0IQNEa/KM24g16AauiUYcEHDq9p0gn3Nh8vm5KWZi7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD FAILED
+D:\Monali\jenkins\workspace\build.xml:216: The following error occurred while executing this line:
+D:\Monali\jenkins\workspace\build.xml:190: Property 'JMSErrQueue1.balancingPolicy' is not defined.
+
+Total time: 1 second
+Build step 'Invoke Ant' marked build as failure
+Finished: FAILURE

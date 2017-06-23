@@ -1,0 +1,58 @@
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building test-soa-project1 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- properties-maven-plugin:1.0-alpha-2:read-project-properties (default) @ test-soa-project1 ---
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ test-soa-project1 ---
+[8mha:////4BKoKNbCSsbpJnMJsrDrifgX7DD48BYRwRDOk30qTxCMAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Monali\jenkins\workspace\src\SOA\test-soa-project1\src\main\resources
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- oracle-soa-plugin:12.2.1-1-0:compile (default-compile) @ test-soa-project1 ---
+[INFO] ------------------------------------------------------------------------
+[INFO] ORACLE SOA MAVEN PLUGIN - COMPILE
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] ABOUT TO RUN oracle.soa.scac.ValidateComposite...
+[INFO] The environment variable/property 'common.components.home' is not set.
+[INFO] The environment variable/property 'soa.oracle.home' is not set.
+[INFO] The environment variable/property 'oracle.home' or 'soa.oracle.com is not set.
+[INFO] If you want to compile a composite with a component that depends
+on MDS - like a Human Task or Business Rule - AND you want to use a file
+based MDS repository, you will need to specify 'oracle.home' AND 'soa.oracle.com' OR update
+your .adf/META-INF/adf-config.xml to point to your file-based MDS.
+If you specify oracle.home it must point to the SOA Quickstart or 
+JDeveloper install directory with '/soa' appended to it, unless you
+update the adf-config.xml to remove the reference to oracle.home.
+[INFO] compile: Executing: [cmd:[C:\Program Files\Java\jdk1.8.0_92\bin\java, -Djava.protocol.handler.pkgs=oracle.mds.net.protocol|oracle.fabric.common.classloaderurl.handler|oracle.fabric.common.uddiurl.handler, -Doracle.home=C:/Oracle/Middleware12c211, oracle.soa.scac.ValidateComposite, D:\Monali\jenkins\workspace\src\SOA\test-soa-project1/SOA//composite.xml, -level=1]]
+[INFO] Process being executed, waiting for completion.
+[INFO] Process log is being buffered and will only be shown if there is an error executing the process.  If you want to see the logs as the process is run then pass -DshowProcessLog=true
+[INFO] compile: [cmd:[C:\Program Files\Java\jdk1.8.0_92\bin\java, -Djava.protocol.handler.pkgs=oracle.mds.net.protocol|oracle.fabric.common.classloaderurl.handler|oracle.fabric.common.uddiurl.handler, -Doracle.home=C:/Oracle/Middleware12c211, oracle.soa.scac.ValidateComposite, D:\Monali\jenkins\workspace\src\SOA\test-soa-project1/SOA//composite.xml, -level=1]] exit code=0
+[INFO] SOA COMPILE DONE
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ test-soa-project1 ---
+[8mha:////4BKoKNbCSsbpJnMJsrDrifgX7DD48BYRwRDOk30qTxCMAAAAYx+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6S2fNly5fzGzauYGBgqihikoFqS8/OK83NS9ZwhNEghAwQwghQWAACwxA+XYgAAAA==[0m[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Monali\jenkins\workspace\src\SOA\test-soa-project1\src\test\resources
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ test-soa-project1 ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ test-soa-project1 ---
+[INFO] No tests to run.
+[JENKINS] Recording test results
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- oracle-soa-plugin:12.2.1-1-0:sar (default-sar) @ test-soa-project1 ---
+[INFO] Building sar: D:\Monali\jenkins\workspace\src\SOA\test-soa-project1\target\sca_test-soa-project1_rev1.0-SNAPSHOT.jar
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- oracle-soa-plugin:12.2.1-1-0:deploy (default-deploy) @ test-soa-project1 ---
+[INFO] ------------------------------------------------------------------------
+[INFO] ORACLE SOA MAVEN PLUGIN - DEPLOY COMPOSITE
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] setting user/password..., user=weblogic
+Processing sar=D:\Monali\jenkins\workspace\src\SOA\test-soa-project1/target/sca_test-soa-project1_rev1.0-SNAPSHOT.jar
+Adding sar file - D:\Monali\jenkins\workspace\src\SOA\test-soa-project1\target\sca_test-soa-project1_rev1.0-SNAPSHOT.jar
+INFO: Creating HTTP connection to host:localhost, port:7001
+INFO: Received HTTP response from the server, response code=200
+---->Deploying composite success.

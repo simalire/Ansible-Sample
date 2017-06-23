@@ -1,0 +1,30 @@
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building app.trim.ivs.ProcessServiceRequest_1.0 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- properties-maven-plugin:1.0-alpha-2:read-project-properties (default) @ app.trim.ivs.ProcessServiceRequest_1.0 ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] src ................................................ SUCCESS [  0.031 s]
+[INFO] resources .......................................... SUCCESS [ 24.757 s]
+[INFO] util.cmn.ivs.Logging_1.0 ........................... SUCCESS [ 17.932 s]
+[INFO] app.trim.ivs.ProcessServiceRequest_1.0 ............. FAILURE [  0.011 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 49.069 s
+[INFO] Finished at: 2017-03-09T17:24:57+05:30
+[INFO] Final Memory: 28M/398M
+[INFO] ------------------------------------------------------------------------
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Failed to execute goal org.codehaus.mojo:properties-maven-plugin:1.0-alpha-2:read-project-properties (default) on project app.trim.ivs.ProcessServiceRequest_1.0: Properties file not found: D:\Monali\jenkins\workspace\src\build\properties\env.properties -> [Help 1]
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] After correcting the problems, you can resume the build with the command
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR]   mvn <goals> -rf :app.trim.ivs.ProcessServiceRequest_1.0

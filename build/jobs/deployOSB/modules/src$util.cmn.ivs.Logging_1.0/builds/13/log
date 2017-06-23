@@ -1,0 +1,20 @@
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building util.cmn.ivs.Logging_1.0 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- properties-maven-plugin:1.0-alpha-2:read-project-properties (default) @ util.cmn.ivs.Logging_1.0 ---
+[INFO] 
+[INFO] --- replacer:1.5.3:replace (default) @ util.cmn.ivs.Logging_1.0 ---
+[INFO] Replacement run on 1 file.
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- oracle-servicebus-plugin:12.2.1-1-0:package (default-package) @ util.cmn.ivs.Logging_1.0 ---
+[INFO] 
+[8mha:////4MpwB8S4pG+iS3gKP+b7a6C7cbztAJDvdIwzIgp/pc5AAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75ZekLlOVfvTjc8FPJgaGiiIGKaiG5Py84vycVD1nCA1SyAABjCCFBQCV27OjYAAAAA==[0m[INFO] --- oracle-servicebus-plugin:12.2.1-1-0:deploy (default-deploy) @ util.cmn.ivs.Logging_1.0 ---
+[INFO] Service Bus Archive deployed using session Service_Bus_Maven-util.cmn.ivs.Logging_1.0-1489060302029.
+[8mha:////4Nv+EZyuKik08u+sWNaDpX5nRZkDzEJPxYZursP4owlwAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] The session cannot be activated due to existence of conflicts.
+resource: BusinessService util.cmn.ivs.Logging_1.0/BusinessServices/CMN_LOGGING
+    error: [OSB-381987]An error occurred while validating JCA transport endpoint. JNDI lookup with URL: jca://eis/DB/util/cmn/nonxa/util_cmn failed. Missing JNDI configuration such as undeployed or incorrectly configured JCA Adapter RAR or connection factory.
+resource: BusinessService util.cmn.ivs.Logging_1.0/BusinessServices/CMN_AUDIT_ERROR
+    error: [OSB-381987]An error occurred while validating JCA transport endpoint. JNDI lookup with URL: jca://eis/DB/util/cmn/nonxa/util_cmn failed. Missing JNDI configuration such as undeployed or incorrectly configured JCA Adapter RAR or connection factory.
+

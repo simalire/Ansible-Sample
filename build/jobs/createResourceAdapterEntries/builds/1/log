@@ -1,0 +1,49 @@
+Started by user [8mha:////4LtfQNX7kl27S4V0s97PccaOSpbARv1X+7NO/SfLyE0tAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace D:\Monali\jenkins\workspace
+Cleaning local Directory .
+Checking out https://coconet-svn-in-01.capgemini.com/svn/repos/powercorintegration/projects/ci/weblogicResources at revision '2017-03-02T12:32:35.411 +0530'
+A         WLSTbuild.properties
+A         createDBJNDI.py
+A         readme.txt
+A         build.xml
+A         createJMSResources.py
+A         details.properties
+A         createMultipleDataSource.py
+At revision 1087
+
+[workspace] $ cmd.exe /C "C:\Oracle\Middleware12c211\oracle_common\modules\org.apache.ant_1.9.2\bin\ant.bat createDBJNDIs && exit %%ERRORLEVEL%%"
+Buildfile: D:\Monali\jenkins\workspace\build.xml
+
+[8mha:////4PtBWaCfsPu/tiDiQJ+Iua0bo5AMX/8fDgR8zRnaeFECAAAAYB+LCAAAAAAAAP9b85aBtbiIQT6jNKU4P0+vJLE4u1gvPjGvRM8xryQksSg9tcQvvyTVvqNr/s+Vl9uYGBgqihikoKqT8/OK83NS9ZwhNEghAwQwghQWAADROOumXQAAAA==[0mcreateDBJNDIs:
+     [wlst] ===================================================
+     [wlst] Running Ant Target to create Database JNDIs.
+     [wlst] ===================================================
+     [wlst] Connecting to t3://localhost:7001 with userid weblogic ...
+     [wlst] Traceback (innermost last):
+     [wlst]   File ".\createDBJNDI.py", line 16, in ?
+     [wlst]   File "<iostream>", line 19, in connect
+     [wlst]   File "<iostream>", line 553, in raiseWLSTException
+     [wlst] WLSTException: Error occurred while performing connect : Error getting the initial context. There is no server running at t3://localhost:7001 : Failed to initialize JNDI context, tried 1 time or times totally, the interval of each time is 0ms. 
+     [wlst] t3://localhost:7001: Destination 0:0:0:0:0:0:0:1, 7001 unreachable.; nested exception is: 
+     [wlst] 	java.net.ConnectException: Connection refused: connect; No available router to destination.; nested exception is: 
+     [wlst] 	java.rmi.ConnectException: No available router to destination. 
+     [wlst] Use dumpStack() to view the full stacktrace :
+     [wlst] 
+     [wlst] Exception in thread "main" java.lang.IllegalStateException: Traceback (innermost last):
+     [wlst]   File ".\createDBJNDI.py", line 16, in ?
+     [wlst]   File "<iostream>", line 19, in connect
+     [wlst]   File "<iostream>", line 553, in raiseWLSTException
+     [wlst] WLSTException: Error occurred while performing connect : Error getting the initial context. There is no server running at t3://localhost:7001 : Failed to initialize JNDI context, tried 1 time or times totally, the interval of each time is 0ms. 
+     [wlst] t3://localhost:7001: Destination 0:0:0:0:0:0:0:1, 7001 unreachable.; nested exception is: 
+     [wlst] 	java.net.ConnectException: Connection refused: connect; No available router to destination.; nested exception is: 
+     [wlst] 	java.rmi.ConnectException: No available router to destination. 
+     [wlst] Use dumpStack() to view the full stacktrace :
+     [wlst] 
+     [wlst] 	at weblogic.management.scripting.WLSTInterpreterInvoker.printError(WLSTInterpreterInvoker.java:225)
+     [wlst] 	at weblogic.management.scripting.WLSTInterpreterInvoker.executePyScript(WLSTInterpreterInvoker.java:190)
+     [wlst] 	at weblogic.management.scripting.WLSTInterpreterInvoker.main(WLSTInterpreterInvoker.java:39)
+     [wlst] Java Result: 1
+
+[8mha:////4D0IQNEa/KM24g16AauiUYcEHDq9p0gn3Nh8vm5KWZi7AAAAYB+LCAAAAAAAAP9b85aBtbiIQSGjNKU4P0+vJLE4u1gvPjGvRM8xr8S/tCQ5PzfVL78ktUuDM0uMry+HiYGhoohBCqo8OT+vOD8nVc8ZQoMUMkAAI0hhAQAUXUdTXgAAAA==[0mBUILD SUCCESSFUL
+Total time: 30 seconds
+Finished: SUCCESS

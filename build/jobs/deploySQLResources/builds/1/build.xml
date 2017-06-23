@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hudson.maven.MavenModuleSetBuild plugin="maven-plugin@2.15.1">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.scm.SubversionTagAction plugin="subversion@2.7.1">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <hudson.scm.SubversionSCM_-SvnInfo>
+            <url>https://scm-coconet.capgemini.com/svn/repos/oracleidp/CI_2017</url>
+            <revision>311</revision>
+          </hudson.scm.SubversionSCM_-SvnInfo>
+          <list/>
+        </entry>
+      </tags>
+    </hudson.scm.SubversionTagAction>
+    <hudson.scm.SVNRevisionState plugin="subversion@2.7.1">
+      <revisions>
+        <entry>
+          <string>https://scm-coconet.capgemini.com/svn/repos/oracleidp/CI_2017</string>
+          <long>311</long>
+        </entry>
+      </revisions>
+    </hudson.scm.SVNRevisionState>
+    <hudson.maven.reporters.MavenAggregatedArtifactRecord>
+      <records/>
+      <parent reference="../../.."/>
+    </hudson.maven.reporters.MavenAggregatedArtifactRecord>
+    <hudson.tasks.Fingerprinter_-FingerprintAction>
+      <record>
+        <entry>
+          <string>junit:junit-3.8.2.jar</string>
+          <string>28e7eb9eeefe31a657c68755bfccc541</string>
+        </entry>
+        <entry>
+          <string>com.tsl.plsqltest:plsqltest:pom.xml</string>
+          <string>9b1797da2350d1c57ed816b272142d42</string>
+        </entry>
+        <entry>
+          <string>com.tsl.plsqltest:plsqltest-1.0-SNAPSHOT.jar</string>
+          <string>c84e4243ab9b4bfbc9bd2fb93c6511e1</string>
+        </entry>
+      </record>
+    </hudson.tasks.Fingerprinter_-FingerprintAction>
+  </actions>
+  <queueId>3</queueId>
+  <timestamp>1489494008513</timestamp>
+  <startTime>1489494008521</startTime>
+  <result>SUCCESS</result>
+  <duration>184319</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>D:\Monali\jenkins\workspace</workspace>
+  <hudsonVersion>2.48</hudsonVersion>
+  <scm class="hudson.scm.SubversionChangeLogParser" plugin="subversion@2.7.1">
+    <ignoreDirPropChanges>false</ignoreDirPropChanges>
+  </scm>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+  <mavenVersionUsed>3.2.5</mavenVersionUsed>
+</hudson.maven.MavenModuleSetBuild>
